@@ -47,7 +47,7 @@ Plan approval is a multi-step review workflow that lets users inspect, edit, and
 #### General example (inspired by Ansible remediations playbook)
 The PatternFly Chatbot [messages with tool calls](https://www.patternfly.org/patternfly-ai/chatbot/messages/#messages-with-tool-calls) pattern is the closest current building block, so the recommended visualization combines the ‘tool call’ style container with a headerless expandable with the addition of the wizard-style chronological numbers and an [action list](https://www.patternfly.org/components/action-list) so the user can modify a step (ie. reorder steps, ask for changes in the step, etc.) remove a step, or approve a step. Designers can include other information based on their use cases including, but not limited to: table cells for AI cost. <a href="#assumptions" class="assumption-marker" style="color:#ee0000;font-weight:700;text-decoration:none">*</a>
 
-![Three-panel plan approval flow: inspect numbered steps, modify a step, and reorder the plan](./assets/plan-approval-general-example.png)
+Three-panel plan approval flow: inspect numbered steps, modify a step, and reorder the plan
 
 ---
 ## Recommended components

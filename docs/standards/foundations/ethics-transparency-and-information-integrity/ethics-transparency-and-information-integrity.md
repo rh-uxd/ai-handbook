@@ -44,12 +44,12 @@ Transparency and information integrity is the perception side of ethical AI: peo
 #### Clearly label where AI is being used
 Whenever generated text, code, configuration, a summary, or an image will be read or applied, mark it as AI-generated on that surface — a table cell, a YAML preview, a ticket comment, not only the chatbot. Pair the label with functional copy (“AI-suggested configuration”), never a persona. Keep the mark on exported or copied artifacts so provenance survives the UI. ([EU AI Act Article 50](https://particula.tech/blog/eu-ai-act-article-50-ai-content-marking-implementation))
 
-![Chat and logs surfaces with AI labels on the bot, diagnosis card, synthesis column, and most-likely cause](./assets/ethics-transparency-label-ai.png)
+Chat and logs surfaces with AI labels on the bot, diagnosis card, synthesis column, and most-likely cause
 
 #### Provide viewable sources
 When a claim depends on retrieved knowledge, show the [specific sources](https://www.patternfly.org/extensions/chatbot/messages/#messages-with-sources) with a title and a link the user can follow. Prefer inline or adjacent citations over a buried “learn more.” Distinguish retrieved or quoted material from model inference. If there is no source, say so — do not approximate.
 
-![Chatbot message with a viewable sources card linking to Getting started with Red Hat OpenShift](./assets/ethics-transparency-viewable-sources.png)
+Chatbot message with a viewable sources card linking to Getting started with Red Hat OpenShift
 
 #### Surface data and actions to the user before, during, and after AI execution
 Show what context was sent, stored, or used to produce this output — files attached, cluster state, conversation memory — at the moment of use. Link to deeper privacy details, but do not make the product disclosure a legal-only page. Incorporating,, proper  visuals, and, most importantly,  keep users informed. A plain-English “AI-generated summary” ranked 11 of 12 in observability prioritization — people want evidence, not a narrative recap.

@@ -48,12 +48,12 @@ Log summary and synthesis is an AI output pattern that compresses high-volume lo
 #### Chatbot context example
 The user pastes in or attaches logs into an AI chatbot experience, and asks for a summary or analysis to help them troubleshoot. The example includes references to specific areas of the logs, ability to see the highlighted log snippet in the context of the full logs, surfaces sources to the user, and provides relevant actions where possible.
 
-![Chatbot diagnosis of a pasted must-gather, with ranked causes and a highlighted log snippet opened at the cited line](./assets/log-summary-chatbot-example.png)
+Chatbot diagnosis of a pasted must-gather, with ranked causes and a highlighted log snippet opened at the cited line
 
 #### Table data context example
 It is becoming more popular to see ‘AI analysis’, ‘AI synthesis’, and other related AI-driven supports baked into page components. The example includes references to specific areas of the logs, ability to see the highlighted log snippet in the context of the full logs, surfaces sources to the user, and provides relevant actions where possible.
 
-![Logs table with an AI synthesis column, expanded evidence snippet, and related, precursor, discarded, and unrelated labels](./assets/log-summary-table-example.png)
+Logs table with an AI synthesis column, expanded evidence snippet, and related, precursor, discarded, and unrelated labels
 
 ---
 ## Recommended components
