@@ -1,9 +1,9 @@
 {
   "version": "1",
-  "generated": "2026-09-18T18:13:39.000Z",
+  "generated": "2026-09-18T18:18:49.000Z",
   "meta": {
-    "totalEntries": 23,
-    "totalDocs": 23,
+    "totalEntries": 25,
+    "totalDocs": 25,
     "source": "rh-uxd-ai-handbook"
   },
   "docs": {
@@ -16,6 +16,18 @@
         "category": "accessibility",
         "source": "rh-uxd-ai-handbook",
         "path": "https://raw.githubusercontent.com/rh-uxd/ai-handbook/main/docs/standards/accessibility/index.md",
+        "version": "v1"
+      }
+    ],
+    "Clarificationprompts": [
+      {
+        "displayName": "Clarification prompts",
+        "description": "When the AI recognizes ambiguity in a query, ask a targeted multiple-choice or short-answer question before generating a response — instead of guessing and eroding trust.",
+        "pathSlug": "standards-conversation-clarification-prompts-clarification-prompts",
+        "section": "ai-design-standards",
+        "category": "conversation",
+        "source": "rh-uxd-ai-handbook",
+        "path": "https://raw.githubusercontent.com/rh-uxd/ai-handbook/main/docs/standards/conversation/clarification-prompts/clarification-prompts.md",
         "version": "v1"
       }
     ],
@@ -220,6 +232,18 @@
         "category": "standards",
         "source": "rh-uxd-ai-handbook",
         "path": "https://raw.githubusercontent.com/rh-uxd/ai-handbook/main/docs/standards/index.md",
+        "version": "v1"
+      }
+    ],
+    "ContextualAIInvocation": [
+      {
+        "displayName": "Contextual AI Invocation",
+        "description": "Call AI with the user's current context captured at the trigger — the entry point and handoff that engages the AI without requiring the user to reconstruct what they were doing.",
+        "pathSlug": "standards-input-authoring-contextual-ai-invocation-contextual-ai-invocation",
+        "section": "ai-design-standards",
+        "category": "input-authoring",
+        "source": "rh-uxd-ai-handbook",
+        "path": "https://raw.githubusercontent.com/rh-uxd/ai-handbook/main/docs/standards/input-authoring/contextual-ai-invocation/contextual-ai-invocation.md",
         "version": "v1"
       }
     ],
