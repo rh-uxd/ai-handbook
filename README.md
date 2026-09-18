@@ -10,6 +10,6 @@ The handbook is exposed to the PatternFly MCP as the `uxd-handbook` collection t
 
 This is a read-only public distribution. GitLab is the sole source of truth; content changes must be made there and are published here by CI.
 
-Handbook images are treated as release artifacts. Baseline images are published unchanged; new or modified images are automatically excluded until reviewed and added to `scripts/public-image-baseline.json`. Their Markdown references are replaced with accessible alt text, so an unknown image cannot block publication or enter the public mirror accidentally.
+Handbook images are treated as release artifacts. Images in `scripts/public-image-allowlist.json` are published unchanged; new or modified images are automatically excluded until reviewed and added to the allowlist. Their Markdown references are replaced with accessible alt text, so an unknown image cannot block publication or enter the public mirror accidentally.
 
 Pull requests, issues, discussions, and wiki content should remain disabled. The default branch should allow updates only from the handbook publishing identity, with force-pushes and branch deletion blocked.
