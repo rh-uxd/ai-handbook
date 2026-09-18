@@ -1,0 +1,275 @@
+{
+  "version": "1",
+  "generated": "2026-09-18T17:07:58.000Z",
+  "meta": {
+    "totalEntries": 22,
+    "totalDocs": 22,
+    "source": "rh-uxd-ai-handbook"
+  },
+  "docs": {
+    "Accessibility": [
+      {
+        "displayName": "Accessibility",
+        "description": "Standards for making AI systems usable by everyone including screen reader compatibility, keyboard navigation, and cognitive load reduction strategies",
+        "pathSlug": "standards-accessibility",
+        "section": "ai-design-standards",
+        "category": "accessibility",
+        "source": "rh-uxd-ai-handbook",
+        "path": "https://raw.githubusercontent.com/rh-uxd/ai-handbook/main/docs/standards/accessibility/index.md",
+        "version": "v1"
+      }
+    ],
+    "Conversation": [
+      {
+        "displayName": "Conversation",
+        "description": "Standards for multi-turn dialogue and conversational AI interactions",
+        "pathSlug": "standards-conversation",
+        "section": "ai-design-standards",
+        "category": "conversation",
+        "source": "rh-uxd-ai-handbook",
+        "path": "https://raw.githubusercontent.com/rh-uxd/ai-handbook/main/docs/standards/conversation/index.md",
+        "version": "v1"
+      }
+    ],
+    "Alertmessages": [
+      {
+        "displayName": "Alert messages",
+        "description": "Communicate AI failures, stalled operations, completions, and other state changes clearly so users know what happened and what to do next",
+        "pathSlug": "standards-error-handling-alert-messages-alert-messages",
+        "section": "ai-design-standards",
+        "category": "error-handling",
+        "source": "rh-uxd-ai-handbook",
+        "path": "https://raw.githubusercontent.com/rh-uxd/ai-handbook/main/docs/standards/error-handling/alert-messages/alert-messages.md",
+        "version": "v1"
+      }
+    ],
+    "ErrorHandling": [
+      {
+        "displayName": "Error Handling",
+        "description": "Standards for managing failures, mistakes, and unexpected AI behavior",
+        "pathSlug": "standards-error-handling",
+        "section": "ai-design-standards",
+        "category": "error-handling",
+        "source": "rh-uxd-ai-handbook",
+        "path": "https://raw.githubusercontent.com/rh-uxd/ai-handbook/main/docs/standards/error-handling/index.md",
+        "version": "v1"
+      }
+    ],
+    "Feedback": [
+      {
+        "displayName": "Feedback",
+        "description": "Standards for capturing explicit and implicit signals about AI output quality to improve products and models",
+        "pathSlug": "standards-feedback",
+        "section": "ai-design-standards",
+        "category": "feedback",
+        "source": "rh-uxd-ai-handbook",
+        "path": "https://raw.githubusercontent.com/rh-uxd/ai-handbook/main/docs/standards/feedback/index.md",
+        "version": "v1"
+      }
+    ],
+    "EthicsBiasandfairness": [
+      {
+        "displayName": "Ethics: Bias and fairness",
+        "description": "Keep AI outcomes equitable across people, languages, abilities, and contexts — including the accessibility of AI-specific UI",
+        "pathSlug": "standards-foundations-ethics-bias-and-fairness-ethics-bias-and-fairness",
+        "section": "ai-design-standards",
+        "category": "foundations",
+        "source": "rh-uxd-ai-handbook",
+        "path": "https://raw.githubusercontent.com/rh-uxd/ai-handbook/main/docs/standards/foundations/ethics-bias-and-fairness/ethics-bias-and-fairness.md",
+        "version": "v1"
+      }
+    ],
+    "EthicsHumanoversight": [
+      {
+        "displayName": "Ethics: Human oversight",
+        "description": "Keep humans in control of AI through approval gates, overrides, withdrawable consent, escalation, and paths to correct AI-driven outcomes",
+        "pathSlug": "standards-foundations-ethics-human-oversight-ethics-human-oversight",
+        "section": "ai-design-standards",
+        "category": "foundations",
+        "source": "rh-uxd-ai-handbook",
+        "path": "https://raw.githubusercontent.com/rh-uxd/ai-handbook/main/docs/standards/foundations/ethics-human-oversight/ethics-human-oversight.md",
+        "version": "v1"
+      }
+    ],
+    "EthicsSustainability": [
+      {
+        "displayName": "Ethics: Sustainability",
+        "description": "Design AI so compute, tokens, and cost are justified, visible, and capped — and so a non-AI path remains available",
+        "pathSlug": "standards-foundations-ethics-sustainability-ethics-sustainability",
+        "section": "ai-design-standards",
+        "category": "foundations",
+        "source": "rh-uxd-ai-handbook",
+        "path": "https://raw.githubusercontent.com/rh-uxd/ai-handbook/main/docs/standards/foundations/ethics-sustainability/ethics-sustainability.md",
+        "version": "v1"
+      }
+    ],
+    "EthicsTransparencyandinformationintegrity": [
+      {
+        "displayName": "Ethics: Transparency and information integrity",
+        "description": "Help people see what is AI-generated, where it came from, how sure it is, what it cannot do, and what data it used",
+        "pathSlug": "standards-foundations-ethics-transparency-and-information-integrity-ethics-transparency-and-information-integrity",
+        "section": "ai-design-standards",
+        "category": "foundations",
+        "source": "rh-uxd-ai-handbook",
+        "path": "https://raw.githubusercontent.com/rh-uxd/ai-handbook/main/docs/standards/foundations/ethics-transparency-and-information-integrity/ethics-transparency-and-information-integrity.md",
+        "version": "v1"
+      }
+    ],
+    "Foundations": [
+      {
+        "displayName": "Foundations",
+        "description": "Cross-cutting ethics and responsibility standards that apply across AI products and interaction modes",
+        "pathSlug": "standards-foundations",
+        "section": "ai-design-standards",
+        "category": "foundations",
+        "source": "rh-uxd-ai-handbook",
+        "path": "https://raw.githubusercontent.com/rh-uxd/ai-handbook/main/docs/standards/foundations/index.md",
+        "version": "v1"
+      }
+    ],
+    "Generation&Output": [
+      {
+        "displayName": "Generation & Output",
+        "description": "Standards for displaying, streaming, and presenting AI-generated content",
+        "pathSlug": "standards-generation-output",
+        "section": "ai-design-standards",
+        "category": "generation-output",
+        "source": "rh-uxd-ai-handbook",
+        "path": "https://raw.githubusercontent.com/rh-uxd/ai-handbook/main/docs/standards/generation-output/index.md",
+        "version": "v1"
+      }
+    ],
+    "Logsummaryandsynthesis": [
+      {
+        "displayName": "Log summary and synthesis",
+        "description": "Compress high-volume logs and related telemetry into a ranked, evidence-linked diagnosis users can verify and act on",
+        "pathSlug": "standards-generation-output-log-summary-and-synthesis-log-summary-synthesis",
+        "section": "ai-design-standards",
+        "category": "generation-output",
+        "source": "rh-uxd-ai-handbook",
+        "path": "https://raw.githubusercontent.com/rh-uxd/ai-handbook/main/docs/standards/generation-output/log-summary-and-synthesis/log-summary-synthesis.md",
+        "version": "v1"
+      }
+    ],
+    "Audittrails": [
+      {
+        "displayName": "Audit trails",
+        "description": "Record and display transparent history of AI actions, decisions, and user interactions for accountability and learning",
+        "pathSlug": "standards-governors-audit-trails-audit-trails",
+        "section": "ai-design-standards",
+        "category": "governors",
+        "source": "rh-uxd-ai-handbook",
+        "path": "https://raw.githubusercontent.com/rh-uxd/ai-handbook/main/docs/standards/governors/audit-trails/audit-trails.md",
+        "version": "v1"
+      }
+    ],
+    "Governors": [
+      {
+        "displayName": "Governors",
+        "description": "Standards for human oversight and control over AI actions and decisions",
+        "pathSlug": "standards-governors",
+        "section": "ai-design-standards",
+        "category": "governors",
+        "source": "rh-uxd-ai-handbook",
+        "path": "https://raw.githubusercontent.com/rh-uxd/ai-handbook/main/docs/standards/governors/index.md",
+        "version": "v1"
+      }
+    ],
+    "Planapproval": [
+      {
+        "displayName": "Plan approval",
+        "description": "Multi-step review that lets users inspect, edit, and approve AI-proposed action sequences before execution",
+        "pathSlug": "standards-governors-plan-approval-plan-approval",
+        "section": "ai-design-standards",
+        "category": "governors",
+        "source": "rh-uxd-ai-handbook",
+        "path": "https://raw.githubusercontent.com/rh-uxd/ai-handbook/main/docs/standards/governors/plan-approval/plan-approval.md",
+        "version": "v1"
+      }
+    ],
+    "Identifiers&Branding": [
+      {
+        "displayName": "Identifiers & Branding",
+        "description": "Standards for labeling and distinguishing AI-generated content through visual language, iconography, and functional AI identity across all interfaces",
+        "pathSlug": "standards-identifiers",
+        "section": "ai-design-standards",
+        "category": "identifiers",
+        "source": "rh-uxd-ai-handbook",
+        "path": "https://raw.githubusercontent.com/rh-uxd/ai-handbook/main/docs/standards/identifiers/index.md",
+        "version": "v1"
+      }
+    ],
+    "TheAIXStandards": [
+      {
+        "displayName": "The AIX Standards",
+        "description": "UIE AI design standards organized by what they help you accomplish",
+        "pathSlug": "standards",
+        "section": "ai-design-standards",
+        "category": "standards",
+        "source": "rh-uxd-ai-handbook",
+        "path": "https://raw.githubusercontent.com/rh-uxd/ai-handbook/main/docs/standards/index.md",
+        "version": "v1"
+      }
+    ],
+    "Input&Authoring": [
+      {
+        "displayName": "Input & Authoring",
+        "description": "Standards for crafting prompts, queries, and instructions to AI systems",
+        "pathSlug": "standards-input-authoring",
+        "section": "ai-design-standards",
+        "category": "input-authoring",
+        "source": "rh-uxd-ai-handbook",
+        "path": "https://raw.githubusercontent.com/rh-uxd/ai-handbook/main/docs/standards/input-authoring/index.md",
+        "version": "v1"
+      }
+    ],
+    "Rawtextinput": [
+      {
+        "displayName": "Raw text input",
+        "description": "Free-form text input that lets users communicate with AI in natural language without structural constraints",
+        "pathSlug": "standards-input-authoring-raw-text-input-raw-text-input",
+        "section": "ai-design-standards",
+        "category": "input-authoring",
+        "source": "rh-uxd-ai-handbook",
+        "path": "https://raw.githubusercontent.com/rh-uxd/ai-handbook/main/docs/standards/input-authoring/raw-text-input/raw-text-input.md",
+        "version": "v1"
+      }
+    ],
+    "TrustBuilders": [
+      {
+        "displayName": "Trust Builders",
+        "description": "Standards that establish confidence and transparency in AI systems",
+        "pathSlug": "standards-trust-builders",
+        "section": "ai-design-standards",
+        "category": "trust-builders",
+        "source": "rh-uxd-ai-handbook",
+        "path": "https://raw.githubusercontent.com/rh-uxd/ai-handbook/main/docs/standards/trust-builders/index.md",
+        "version": "v1"
+      }
+    ],
+    "Tuners&Controls": [
+      {
+        "displayName": "Tuners & Controls",
+        "description": "Standards for adjusting AI behavior and output parameters including model selection, parameter tuning, filters, and mode switching capabilities",
+        "pathSlug": "standards-tuners-controls",
+        "section": "ai-design-standards",
+        "category": "tuners-controls",
+        "source": "rh-uxd-ai-handbook",
+        "path": "https://raw.githubusercontent.com/rh-uxd/ai-handbook/main/docs/standards/tuners-controls/index.md",
+        "version": "v1"
+      }
+    ],
+    "Wayfinders": [
+      {
+        "displayName": "Wayfinders",
+        "description": "Standards that help users navigate AI systems and understand what's possible",
+        "pathSlug": "standards-wayfinders",
+        "section": "ai-design-standards",
+        "category": "wayfinders",
+        "source": "rh-uxd-ai-handbook",
+        "path": "https://raw.githubusercontent.com/rh-uxd/ai-handbook/main/docs/standards/wayfinders/index.md",
+        "version": "v1"
+      }
+    ]
+  }
+}
