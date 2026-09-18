@@ -1,9 +1,9 @@
 {
   "version": "1",
-  "generated": "2026-09-18T18:11:37.000Z",
+  "generated": "2026-09-18T18:15:38.000Z",
   "meta": {
-    "totalEntries": 23,
-    "totalDocs": 23,
+    "totalEntries": 24,
+    "totalDocs": 24,
     "source": "rh-uxd-ai-handbook"
   },
   "docs": {
@@ -16,6 +16,18 @@
         "category": "accessibility",
         "source": "rh-uxd-ai-handbook",
         "path": "https://raw.githubusercontent.com/rh-uxd/ai-handbook/main/docs/standards/accessibility/index.md",
+        "version": "v1"
+      }
+    ],
+    "Clarificationprompts": [
+      {
+        "displayName": "Clarification prompts",
+        "description": "When the AI recognizes ambiguity in a query, ask a targeted multiple-choice or short-answer question before generating a response — instead of guessing and eroding trust.",
+        "pathSlug": "standards-conversation-clarification-prompts-clarification-prompts",
+        "section": "ai-design-standards",
+        "category": "conversation",
+        "source": "rh-uxd-ai-handbook",
+        "path": "https://raw.githubusercontent.com/rh-uxd/ai-handbook/main/docs/standards/conversation/clarification-prompts/clarification-prompts.md",
         "version": "v1"
       }
     ],
