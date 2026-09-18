@@ -53,6 +53,7 @@ When a claim depends on retrieved knowledge, show the [specific sources](https:/
 
 #### Surface data and actions to the user before, during, and after AI execution
 Show what context was sent, stored, or used to produce this output — files attached, cluster state, conversation memory — at the moment of use. Link to deeper privacy details, but do not make the product disclosure a legal-only page. Incorporating,, proper  visuals, and, most importantly,  keep users informed. A plain-English “AI-generated summary” ranked 11 of 12 in observability prioritization — people want evidence, not a narrative recap.
+
 ---
 ## Related standards
 -
@@ -63,8 +64,7 @@ Show what context was sent, stored, or used to produce this output — files att
 -
 -
 - Source attribution
-- Confidence indicators
-- Ethics: Skill and expertise preservation
+-
 -
 ---
 ## Assumptions and research questions

@@ -50,6 +50,7 @@ Evaluate models and prompts continuously before launch and after updates. Includ
 
 #### Accessible UI for dynamic AI features
 Ensure dynamic UI elements like streaming text, inline suggestions, chat, and approval flows are fully accessible. Provide complete keyboard functionality without relying on hover triggers, use polite live region announcements for key status changes rather than announcing every token, and maintain focus in the input area during text generation. Make sure all action controls are clearly labeled and operable without a mouse. ([PatternFly About accessibility](https://www.patternfly.org/accessibility/about-accessibility))
+
 ---
 ## Related standards
 -
@@ -58,11 +59,8 @@ Ensure dynamic UI elements like streaming text, inline suggestions, chat, and ap
 -
 -
 -
-- Screen reader compatibility
-- Cognitive load
-- Focus management
-- Ethics: Harm reduction
-- Ethics: Skill and expertise preservation
+-
+-
 ---
 ## Assumptions and research questions
 <a id="assumptions"></a>

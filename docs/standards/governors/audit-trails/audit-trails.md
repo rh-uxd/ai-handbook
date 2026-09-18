@@ -72,7 +72,6 @@ While more robust tables are better suited for full page rendering, you may also
 - Code execution results
 -
 -
-- Streaming output
 ---
 ## Notes for PatternFly
 The following explainability/audit trails needs are not fully covered by existing PatternFly components and may require net-new design work:

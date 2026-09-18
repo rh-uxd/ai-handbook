@@ -71,7 +71,6 @@ It is becoming more popular to see ‘AI analysis’, ‘AI synthesis’, and ot
 -
 - Code execution results
 - Source attribution
-- Result formatting
 ---
 ## Notes for PatternFly
 - **Diagnosis vs. snippet vs. viewer:** Log snippet pairs a message with a short excerpt. Log viewer is for raw tails. Neither documents a ranked, evidence-linked diagnosis (verdict, competing causes, citations into specific lines). That composition is the gap this standard needs.

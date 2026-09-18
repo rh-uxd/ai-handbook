@@ -67,9 +67,9 @@ After an AI-influenced decision, the user-facing  should distinguish AI actions 
 -
 - User override
 -
-- Ethics: Harm reduction
+-
 - Retry & recovery
-- Ethics: Skill and expertise preservation
+-
 ---
 ## Assumptions and research questions
 <a id="assumptions"></a>

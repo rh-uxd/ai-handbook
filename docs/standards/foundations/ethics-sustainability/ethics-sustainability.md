@@ -50,6 +50,7 @@ Provide upfront token/cost estimates at invoke and during long runs. Place label
 
 #### Ensure a viable non-AI path
 Default to lower-cost options (such as search, templates, or small models) for automated or suggested surfaces. Keep non-AI workflows fully functional, make contextual invocation optional, and ensure users can complete tasks regardless of AI availability or budget limits.
+
 ---
 ## Recommended components
 - **[Progress](https://www.patternfly.org/components/progress/design-guidelines):** Horizontal bar for how much of a budget, token allotment, or cap is used. Pair the bar with a value and unit — not a bare percent.
@@ -70,8 +71,7 @@ Default to lower-cost options (such as search, templates, or small models) for a
 -
 -
 -
-- AI Appropriateness
-- Ethics: Harm reduction
+-
 ---
 ## Assumptions and research questions
 <a id="assumptions"></a>

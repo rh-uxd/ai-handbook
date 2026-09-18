@@ -63,7 +63,6 @@ The PatternFly Chatbot [messages with tool calls](https://www.patternfly.org/pat
 -
 -
 - User override
-- Code execution controls
 ---
 ## Notes for PatternFly
 - **New table variant request:** Headerless table with chronological numbers to achieve the needs of this standard
