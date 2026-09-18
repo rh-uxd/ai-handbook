@@ -1,9 +1,9 @@
 {
   "version": "1",
-  "generated": "2026-09-18T18:25:19.000Z",
+  "generated": "2026-09-18T18:25:04.000Z",
   "meta": {
-    "totalEntries": 26,
-    "totalDocs": 26,
+    "totalEntries": 28,
+    "totalDocs": 28,
     "source": "rh-uxd-ai-handbook"
   },
   "docs": {
@@ -40,6 +40,18 @@
         "category": "conversation",
         "source": "rh-uxd-ai-handbook",
         "path": "https://raw.githubusercontent.com/rh-uxd/ai-handbook/main/docs/standards/conversation/index.md",
+        "version": "v1"
+      }
+    ],
+    "Prompttemplates": [
+      {
+        "displayName": "Prompt templates",
+        "description": "Reusable prompt structures with fillable variables that encode proven phrasing for repeated tasks — saved instruments for practiced users, not starter suggestions.",
+        "pathSlug": "standards-conversation-prompt-templates-prompt-templates",
+        "section": "ai-design-standards",
+        "category": "conversation",
+        "source": "rh-uxd-ai-handbook",
+        "path": "https://raw.githubusercontent.com/rh-uxd/ai-handbook/main/docs/standards/conversation/prompt-templates/prompt-templates.md",
         "version": "v1"
       }
     ],
@@ -316,6 +328,18 @@
         "category": "wayfinders",
         "source": "rh-uxd-ai-handbook",
         "path": "https://raw.githubusercontent.com/rh-uxd/ai-handbook/main/docs/standards/wayfinders/index.md",
+        "version": "v1"
+      }
+    ],
+    "Promptsuggestions": [
+      {
+        "displayName": "Prompt suggestions",
+        "description": "Pre-written example prompts at an AI entry point that solve the blank-canvas problem, teach effective phrasing, and advertise what the AI can do — without executing on selection.",
+        "pathSlug": "standards-wayfinders-prompt-suggestions-prompt-suggestions",
+        "section": "ai-design-standards",
+        "category": "conversation",
+        "source": "rh-uxd-ai-handbook",
+        "path": "https://raw.githubusercontent.com/rh-uxd/ai-handbook/main/docs/standards/wayfinders/prompt-suggestions/prompt-suggestions.md",
         "version": "v1"
       }
     ]
