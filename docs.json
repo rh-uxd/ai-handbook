@@ -1,9 +1,9 @@
 {
   "version": "1",
-  "generated": "2026-09-18T18:28:12.000Z",
+  "generated": "2026-09-18T18:13:39.000Z",
   "meta": {
-    "totalEntries": 29,
-    "totalDocs": 29,
+    "totalEntries": 23,
+    "totalDocs": 23,
     "source": "rh-uxd-ai-handbook"
   },
   "docs": {
@@ -19,18 +19,6 @@
         "version": "v1"
       }
     ],
-    "Clarificationprompts": [
-      {
-        "displayName": "Clarification prompts",
-        "description": "When the AI recognizes ambiguity in a query, ask a targeted multiple-choice or short-answer question before generating a response — instead of guessing and eroding trust.",
-        "pathSlug": "standards-conversation-clarification-prompts-clarification-prompts",
-        "section": "ai-design-standards",
-        "category": "conversation",
-        "source": "rh-uxd-ai-handbook",
-        "path": "https://raw.githubusercontent.com/rh-uxd/ai-handbook/main/docs/standards/conversation/clarification-prompts/clarification-prompts.md",
-        "version": "v1"
-      }
-    ],
     "Conversation": [
       {
         "displayName": "Conversation",
@@ -40,18 +28,6 @@
         "category": "conversation",
         "source": "rh-uxd-ai-handbook",
         "path": "https://raw.githubusercontent.com/rh-uxd/ai-handbook/main/docs/standards/conversation/index.md",
-        "version": "v1"
-      }
-    ],
-    "Prompttemplates": [
-      {
-        "displayName": "Prompt templates",
-        "description": "Reusable prompt structures with fillable variables that encode proven phrasing for repeated tasks — saved instruments for practiced users, not starter suggestions.",
-        "pathSlug": "standards-conversation-prompt-templates-prompt-templates",
-        "section": "ai-design-standards",
-        "category": "conversation",
-        "source": "rh-uxd-ai-handbook",
-        "path": "https://raw.githubusercontent.com/rh-uxd/ai-handbook/main/docs/standards/conversation/prompt-templates/prompt-templates.md",
         "version": "v1"
       }
     ],
@@ -199,18 +175,6 @@
         "version": "v1"
       }
     ],
-    "HumanintheLoopHITL": [
-      {
-        "displayName": "Human-in-the-Loop (HITL)",
-        "description": "Keep a human in control of AI agent work — the agent investigates and prepares, and a person reviews evidence and authorizes any consequential action.",
-        "pathSlug": "standards-governors-human-in-the-loop-human-in-the-loop",
-        "section": "ai-design-standards",
-        "category": "governors",
-        "source": "rh-uxd-ai-handbook",
-        "path": "https://raw.githubusercontent.com/rh-uxd/ai-handbook/main/docs/standards/governors/human-in-the-loop/human-in-the-loop.md",
-        "version": "v1"
-      }
-    ],
     "Governors": [
       {
         "displayName": "Governors",
@@ -259,18 +223,6 @@
         "version": "v1"
       }
     ],
-    "ContextualAIInvocation": [
-      {
-        "displayName": "Contextual AI Invocation",
-        "description": "Call AI with the user's current context captured at the trigger — the entry point and handoff that engages the AI without requiring the user to reconstruct what they were doing.",
-        "pathSlug": "standards-input-authoring-contextual-ai-invocation-contextual-ai-invocation",
-        "section": "ai-design-standards",
-        "category": "input-authoring",
-        "source": "rh-uxd-ai-handbook",
-        "path": "https://raw.githubusercontent.com/rh-uxd/ai-handbook/main/docs/standards/input-authoring/contextual-ai-invocation/contextual-ai-invocation.md",
-        "version": "v1"
-      }
-    ],
     "Input&Authoring": [
       {
         "displayName": "Input & Authoring",
@@ -292,18 +244,6 @@
         "category": "input-authoring",
         "source": "rh-uxd-ai-handbook",
         "path": "https://raw.githubusercontent.com/rh-uxd/ai-handbook/main/docs/standards/input-authoring/raw-text-input/raw-text-input.md",
-        "version": "v1"
-      }
-    ],
-    "Structuredprompts": [
-      {
-        "displayName": "Structured prompts",
-        "description": "Form-based input that guides users to provide well-formed AI prompts through structured fields, reducing cognitive load when free-form typing is too open-ended.",
-        "pathSlug": "standards-input-authoring-structured-prompts-structured-prompts",
-        "section": "ai-design-standards",
-        "category": "input-authoring",
-        "source": "rh-uxd-ai-handbook",
-        "path": "https://raw.githubusercontent.com/rh-uxd/ai-handbook/main/docs/standards/input-authoring/structured-prompts/structured-prompts.md",
         "version": "v1"
       }
     ],
@@ -340,18 +280,6 @@
         "category": "wayfinders",
         "source": "rh-uxd-ai-handbook",
         "path": "https://raw.githubusercontent.com/rh-uxd/ai-handbook/main/docs/standards/wayfinders/index.md",
-        "version": "v1"
-      }
-    ],
-    "Promptsuggestions": [
-      {
-        "displayName": "Prompt suggestions",
-        "description": "Pre-written example prompts at an AI entry point that solve the blank-canvas problem, teach effective phrasing, and advertise what the AI can do — without executing on selection.",
-        "pathSlug": "standards-wayfinders-prompt-suggestions-prompt-suggestions",
-        "section": "ai-design-standards",
-        "category": "conversation",
-        "source": "rh-uxd-ai-handbook",
-        "path": "https://raw.githubusercontent.com/rh-uxd/ai-handbook/main/docs/standards/wayfinders/prompt-suggestions/prompt-suggestions.md",
         "version": "v1"
       }
     ]
