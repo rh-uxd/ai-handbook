@@ -62,11 +62,11 @@ The goal is to lower the cost of the first prompt while raising its quality — 
 
 **Ask Red Hat:** Starter prompts in Ask Red Hat’s empty chat can teach capability range and ease the blank-canvas problem for users who do not yet know what to ask. Use this as an example of zero-state starters that populate the input for review — not Ask Red Hat as a whole product. Caveat: Ask Red Hat research more often shows people arriving with a problem already, and starters may be weakly scoped when the chat lacks cluster, project, or object context; prefer Lightspeed-style context-scoped suggestions when illustrating the pattern at its strongest. (; )
 
-![Ask Red Hat empty chat with starter prompt suggestions Tell me about Ask Red Hat and What technologies are used in Ask Red Hat](./assets/ask-red-hat-suggestions.png)
+Ask Red Hat empty chat with starter prompt suggestions Tell me about Ask Red Hat and What technologies are used in Ask Red Hat
 
 **Search prompts (Lightspeed):** An Omni-bar style interaction that provides visibility for a search-style experience with Lightspeed — suggestions help users see what they can ask without starting from a blank field. In OpenShift Lightspeed, the masthead “Ask AI about this cluster…” entry point surfaces a Suggested prompts menu scoped to the current cluster and project. (; )
 
-![OpenShift Lightspeed omni-bar showing Suggested prompts on a Pod details page](./assets/search-prompts.png)
+OpenShift Lightspeed omni-bar showing Suggested prompts on a Pod details page
 
 ---
 
