@@ -1,9 +1,9 @@
 {
   "version": "1",
-  "generated": "2026-09-18T18:16:24.000Z",
+  "generated": "2026-09-18T18:22:09.000Z",
   "meta": {
-    "totalEntries": 24,
-    "totalDocs": 24,
+    "totalEntries": 27,
+    "totalDocs": 27,
     "source": "rh-uxd-ai-handbook"
   },
   "docs": {
@@ -187,6 +187,18 @@
         "version": "v1"
       }
     ],
+    "HumanintheLoopHITL": [
+      {
+        "displayName": "Human-in-the-Loop (HITL)",
+        "description": "Keep a human in control of AI agent work — the agent investigates and prepares, and a person reviews evidence and authorizes any consequential action.",
+        "pathSlug": "standards-governors-human-in-the-loop-human-in-the-loop",
+        "section": "ai-design-standards",
+        "category": "governors",
+        "source": "rh-uxd-ai-handbook",
+        "path": "https://raw.githubusercontent.com/rh-uxd/ai-handbook/main/docs/standards/governors/human-in-the-loop/human-in-the-loop.md",
+        "version": "v1"
+      }
+    ],
     "Governors": [
       {
         "displayName": "Governors",
@@ -232,6 +244,18 @@
         "category": "standards",
         "source": "rh-uxd-ai-handbook",
         "path": "https://raw.githubusercontent.com/rh-uxd/ai-handbook/main/docs/standards/index.md",
+        "version": "v1"
+      }
+    ],
+    "ContextualAIInvocation": [
+      {
+        "displayName": "Contextual AI Invocation",
+        "description": "Call AI with the user's current context captured at the trigger — the entry point and handoff that engages the AI without requiring the user to reconstruct what they were doing.",
+        "pathSlug": "standards-input-authoring-contextual-ai-invocation-contextual-ai-invocation",
+        "section": "ai-design-standards",
+        "category": "input-authoring",
+        "source": "rh-uxd-ai-handbook",
+        "path": "https://raw.githubusercontent.com/rh-uxd/ai-handbook/main/docs/standards/input-authoring/contextual-ai-invocation/contextual-ai-invocation.md",
         "version": "v1"
       }
     ],
@@ -292,6 +316,18 @@
         "category": "wayfinders",
         "source": "rh-uxd-ai-handbook",
         "path": "https://raw.githubusercontent.com/rh-uxd/ai-handbook/main/docs/standards/wayfinders/index.md",
+        "version": "v1"
+      }
+    ],
+    "Promptsuggestions": [
+      {
+        "displayName": "Prompt suggestions",
+        "description": "Pre-written example prompts at an AI entry point that solve the blank-canvas problem, teach effective phrasing, and advertise what the AI can do — without executing on selection.",
+        "pathSlug": "standards-wayfinders-prompt-suggestions-prompt-suggestions",
+        "section": "ai-design-standards",
+        "category": "conversation",
+        "source": "rh-uxd-ai-handbook",
+        "path": "https://raw.githubusercontent.com/rh-uxd/ai-handbook/main/docs/standards/wayfinders/prompt-suggestions/prompt-suggestions.md",
         "version": "v1"
       }
     ]
