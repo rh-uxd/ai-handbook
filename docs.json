@@ -1,9 +1,9 @@
 {
   "version": "1",
-  "generated": "2026-09-18T17:54:59.000Z",
+  "generated": "2026-09-18T18:11:20.000Z",
   "meta": {
-    "totalEntries": 22,
-    "totalDocs": 22,
+    "totalEntries": 23,
+    "totalDocs": 23,
     "source": "rh-uxd-ai-handbook"
   },
   "docs": {
@@ -148,6 +148,18 @@
         "category": "generation-output",
         "source": "rh-uxd-ai-handbook",
         "path": "https://raw.githubusercontent.com/rh-uxd/ai-handbook/main/docs/standards/generation-output/log-summary-and-synthesis/log-summary-synthesis.md",
+        "version": "v1"
+      }
+    ],
+    "ActionConfirmation": [
+      {
+        "displayName": "Action Confirmation",
+        "description": "Require explicit user approval before AI executes risky, irreversible, or high-impact actions — with a clear preview of what will happen.",
+        "pathSlug": "standards-governors-action-confirmation-action-confirmation",
+        "section": "ai-design-standards",
+        "category": "governors",
+        "source": "rh-uxd-ai-handbook",
+        "path": "https://raw.githubusercontent.com/rh-uxd/ai-handbook/main/docs/standards/governors/action-confirmation/action-confirmation.md",
         "version": "v1"
       }
     ],
