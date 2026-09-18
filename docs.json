@@ -1,9 +1,9 @@
 {
   "version": "1",
-  "generated": "2026-09-18T18:25:04.000Z",
+  "generated": "2026-09-18T18:28:12.000Z",
   "meta": {
-    "totalEntries": 28,
-    "totalDocs": 28,
+    "totalEntries": 29,
+    "totalDocs": 29,
     "source": "rh-uxd-ai-handbook"
   },
   "docs": {
@@ -292,6 +292,18 @@
         "category": "input-authoring",
         "source": "rh-uxd-ai-handbook",
         "path": "https://raw.githubusercontent.com/rh-uxd/ai-handbook/main/docs/standards/input-authoring/raw-text-input/raw-text-input.md",
+        "version": "v1"
+      }
+    ],
+    "Structuredprompts": [
+      {
+        "displayName": "Structured prompts",
+        "description": "Form-based input that guides users to provide well-formed AI prompts through structured fields, reducing cognitive load when free-form typing is too open-ended.",
+        "pathSlug": "standards-input-authoring-structured-prompts-structured-prompts",
+        "section": "ai-design-standards",
+        "category": "input-authoring",
+        "source": "rh-uxd-ai-handbook",
+        "path": "https://raw.githubusercontent.com/rh-uxd/ai-handbook/main/docs/standards/input-authoring/structured-prompts/structured-prompts.md",
         "version": "v1"
       }
     ],
