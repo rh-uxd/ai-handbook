@@ -1,9 +1,9 @@
 {
   "version": "1",
-  "generated": "2026-09-18T18:22:10.000Z",
+  "generated": "2026-09-18T18:46:36.000Z",
   "meta": {
-    "totalEntries": 27,
-    "totalDocs": 27,
+    "totalEntries": 29,
+    "totalDocs": 29,
     "source": "rh-uxd-ai-handbook"
   },
   "docs": {
@@ -40,6 +40,18 @@
         "category": "conversation",
         "source": "rh-uxd-ai-handbook",
         "path": "https://raw.githubusercontent.com/rh-uxd/ai-handbook/main/docs/standards/conversation/index.md",
+        "version": "v1"
+      }
+    ],
+    "Prompttemplates": [
+      {
+        "displayName": "Prompt templates",
+        "description": "Reusable prompt structures with fillable variables that encode proven phrasing for repeated tasks — saved instruments for practiced users, not starter suggestions.",
+        "pathSlug": "standards-conversation-prompt-templates-prompt-templates",
+        "section": "ai-design-standards",
+        "category": "conversation",
+        "source": "rh-uxd-ai-handbook",
+        "path": "https://raw.githubusercontent.com/rh-uxd/ai-handbook/main/docs/standards/conversation/prompt-templates/prompt-templates.md",
         "version": "v1"
       }
     ],
@@ -280,6 +292,18 @@
         "category": "input-authoring",
         "source": "rh-uxd-ai-handbook",
         "path": "https://raw.githubusercontent.com/rh-uxd/ai-handbook/main/docs/standards/input-authoring/raw-text-input/raw-text-input.md",
+        "version": "v1"
+      }
+    ],
+    "Structuredprompts": [
+      {
+        "displayName": "Structured prompts",
+        "description": "Form-based input that guides users to provide well-formed AI prompts through structured fields, reducing cognitive load when free-form typing is too open-ended.",
+        "pathSlug": "standards-input-authoring-structured-prompts-structured-prompts",
+        "section": "ai-design-standards",
+        "category": "input-authoring",
+        "source": "rh-uxd-ai-handbook",
+        "path": "https://raw.githubusercontent.com/rh-uxd/ai-handbook/main/docs/standards/input-authoring/structured-prompts/structured-prompts.md",
         "version": "v1"
       }
     ],
