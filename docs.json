@@ -1,9 +1,9 @@
 {
   "version": "1",
-  "generated": "2026-09-18T18:46:36.000Z",
+  "generated": "2026-09-18T19:40:14.000Z",
   "meta": {
-    "totalEntries": 29,
-    "totalDocs": 29,
+    "totalEntries": 30,
+    "totalDocs": 30,
     "source": "rh-uxd-ai-handbook"
   },
   "docs": {
@@ -199,9 +199,9 @@
         "version": "v1"
       }
     ],
-    "HumanintheLoopHITL": [
+    "HumanintheloopHITL": [
       {
-        "displayName": "Human-in-the-Loop (HITL)",
+        "displayName": "Human-in-the-loop (HITL)",
         "description": "Keep a human in control of AI agent work — the agent investigates and prepares, and a person reviews evidence and authorizes any consequential action.",
         "pathSlug": "standards-governors-human-in-the-loop-human-in-the-loop",
         "section": "ai-design-standards",
@@ -262,7 +262,7 @@
     "ContextualAIInvocation": [
       {
         "displayName": "Contextual AI Invocation",
-        "description": "Call AI with the user's current context captured at the trigger — the entry point and handoff that engages the AI without requiring the user to reconstruct what they were doing.",
+        "description": "How a product opens an AI conversation or capability from the place the user already is, with enough of their current situation attached that they don't have to re-explain what they were doing.",
         "pathSlug": "standards-input-authoring-contextual-ai-invocation-contextual-ai-invocation",
         "section": "ai-design-standards",
         "category": "input-authoring",
@@ -328,6 +328,18 @@
         "category": "tuners-controls",
         "source": "rh-uxd-ai-handbook",
         "path": "https://raw.githubusercontent.com/rh-uxd/ai-handbook/main/docs/standards/tuners-controls/index.md",
+        "version": "v1"
+      }
+    ],
+    "ContextualAIactions": [
+      {
+        "displayName": "Contextual AI actions",
+        "description": "AI-powered tasks surfaced in place, scoped to the object or state the user is working with, so the action runs without a separate chat or blank prompt.",
+        "pathSlug": "standards-wayfinders-contextual-ai-actions-contextual-ai-actions",
+        "section": "ai-design-standards",
+        "category": "wayfinders",
+        "source": "rh-uxd-ai-handbook",
+        "path": "https://raw.githubusercontent.com/rh-uxd/ai-handbook/main/docs/standards/wayfinders/contextual-ai-actions/contextual-ai-actions.md",
         "version": "v1"
       }
     ],
