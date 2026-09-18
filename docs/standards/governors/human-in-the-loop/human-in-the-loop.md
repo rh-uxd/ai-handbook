@@ -71,7 +71,7 @@ HITL also fits when:
 
 **Migration review:** Before a consequential workspace change, the user reviews AI-generated impact (who gains or loses access) and only then decides whether to submit. In this Hybrid Cloud Console / ACM-style flow, selecting a destination workspace surfaces a Review control that opens the Virtual Assistant with migration impact; Submit stays with the human.
 
-![Migration review flow: Change workspace modal with Review control opening Virtual Assistant impact analysis before submit](./assets/migration-review.png)
+Migration review flow: Change workspace modal with Review control opening Virtual Assistant impact analysis before submit
 
 **HITL authorization workflow:** A person triggers work that needs review before it can move forward. The agent presents findings — summarized information, source links, and proposed changes. The person reviews the plan (questions, potential outcomes, linked resources), can modify or override the decision, then either approves and executes or stops the run with a kill switch. (; )
 
