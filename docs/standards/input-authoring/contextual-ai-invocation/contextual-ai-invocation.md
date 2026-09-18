@@ -62,7 +62,7 @@ Red Hat Developer Hub Intelligent Assistant carrying the Development search cont
 
 **Hybrid Cloud Console:** An AI prompt helps users get properly set up with the Hybrid Cloud Console, carrying setup context into the call instead of starting from a blank prompt. Selecting a setup-related suggestion opens the related HCC setup tasks panel.
 
-![Hybrid Cloud Console dashboard where a setup suggestion invokes the HCC setup tasks panel](./assets/hybrid-cloud-console.png)
+Hybrid Cloud Console dashboard where a setup suggestion invokes the HCC setup tasks panel
 
 ---
 
