@@ -21,18 +21,18 @@ Human-in-the-loop (HITL) is a pattern in which an AI agent never acts entirely o
 Because AI agents may omit small details, the team deploying the agent — not the model vendor — is responsible for its output. HITL addresses that responsibility by:
 
 - **Establishing accountability:** A named person authorizes consequential decisions, so there is a human owner of record.
-- **Catching confident errors:** Humans can flag paraphrases, omissions, or claims the agent cannot trace to a source. (; )
-- **Creating a defensible record:** Active authorization proves a review happened, including when and by whom. (; )
+- **Catching confident errors:** Humans can flag paraphrases, omissions, or claims the agent cannot trace to a source.
+- **Creating a defensible record:** Active authorization proves a review happened, including when and by whom.
 - **Keeping action safe:** The agent only executes what a person has explicitly approved.
 - **Preserving a stop:** Allowing a person to terminate or halt an AI agent’s activity mid-run or mid-resolution using a “kill switch” control.
-- **Building trust and adoption:** Users rely on the agent more when they know they retain final control. (; )
+- **Building trust and adoption:** Users rely on the agent more when they know they retain final control.
 ---
 ## When to use
 Use HITL for agent actions that require explicit review and authorization, including:
 
 - **Irreversible actions:** Deleting data, sending external messages, or changing production configurations.
 - **Production impact:** Actions that touch live systems or have a wide blast radius.
-- **Unverified claims drive a decision:** When an agent's summary (which might paraphrase or miss details) is the basis for acting. (; )
+- **Unverified claims drive a decision:** When an agent's summary (which might paraphrase or miss details) is the basis for acting.
 - **Third-party exposure:** Potential for false or incomplete output to mislead or harm people outside the immediate team. <a href="#assumptions" class="assumption-marker" style="color:#ee0000;font-weight:700;text-decoration:none">*</a>
 - **External-facing output:** Anything posted, published, or sent on the team's behalf. <a href="#assumptions" class="assumption-marker" style="color:#ee0000;font-weight:700;text-decoration:none">*</a>
 - **Inference beyond sources:** When the agent is uncertain or draws conclusions not directly backed by linked sources.
@@ -47,7 +47,7 @@ HITL also fits when:
 ---
 ## When not to use
 - **Low-risk plan work:** Avoid mandatory authorization for early gathering, drafting, or proposal work where review adds friction without a clear safety gain. <a href="#assumptions" class="assumption-marker" style="color:#ee0000;font-weight:700;text-decoration:none">*</a>
-- **Approval fatigue:** If volume is so high that reviewers rubber-stamp without reading, HITL creates a false sense of oversight — narrow what requires a gate, or redesign the workflow. (; )
+- **Approval fatigue:** If volume is so high that reviewers rubber-stamp without reading, HITL creates a false sense of oversight — narrow what requires a gate, or redesign the workflow.
 - **Time-critical safe actions:** Skip a required gate for safe, automated responses (for example, auto-scaling or failover) where delay is the larger risk. <a href="#assumptions" class="assumption-marker" style="color:#ee0000;font-weight:700;text-decoration:none">*</a>
 - **Passive disclaimers instead of review:** Phrases like “The AI may be wrong” are not a substitute for active authorization on consequential actions.
 - **Review after the fact:** Authorization must happen before the agent resolves or executes the consequential step — not only in an after-action log.
@@ -63,7 +63,7 @@ Migration review flow: Change workspace modal with Review control opening Virtua
 *[Github](https://github.com/KendraMar/HCCconcierge) (Experience 4 - follow the pink arrows for expected userflow)*
 
 #### HITL authorization workflow
-A person triggers work that needs review before it can move forward. The agent presents findings — summarized information, source links, and proposed changes. The person reviews the plan (questions, potential outcomes, linked resources), can modify or override the decision, then either approves and executes or stops the run with a kill switch. (; )
+A person triggers work that needs review before it can move forward. The agent presents findings — summarized information, source links, and proposed changes. The person reviews the plan (questions, potential outcomes, linked resources), can modify or override the decision, then either approves and executes or stops the run with a kill switch.
 
 1. **Trigger:** Surface friction or a consequential request that must not proceed without review.
 2. **Agent presents findings:** Summary, source links, and proposed changes.
@@ -72,7 +72,7 @@ A person triggers work that needs review before it can move forward. The agent p
 5. **Approve & execute — or kill switch:** Action runs only after approval; otherwise the person stops the agent.
 
 #### Shared-platform accountability
-On channels such as Slack or other shared surfaces, the review record should show who authorized the action, not only that “someone” approved it. (; )
+On channels such as Slack or other shared surfaces, the review record should show who authorized the action, not only that “someone” approved it.
 
 ---
 ## Recommended components
@@ -82,12 +82,6 @@ On channels such as Slack or other shared surfaces, the review record should sho
 - **[Helper text](https://www.patternfly.org/components/helper-text):** Supporting copy that separates recorded facts from inferred claims during review.
 ---
 ## Related standards
--
--
--
--
--
--
 ---
 ## Notes for PatternFly
 - **HITL authorization workflow is not a PatternFly pattern yet:** Recommended components cover approve/reject controls and review surfaces (Button, Modal, Alert, Helper text), but PatternFly does not document a standard recipe for the full HITL loop — plan/findings review with evidence, modify/override, explicit authorization, and an interruptible kill switch mid-run. A PatternFly guidance or demo for agent authorization would help product teams implement this standard consistently.

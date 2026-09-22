@@ -95,11 +95,7 @@ Hybrid Cloud Console flow for saving a custom view and accessing it from Saved c
 
 ## Related Standards
 
--
--
--
 - Structured prompts
--
 
 ---
 

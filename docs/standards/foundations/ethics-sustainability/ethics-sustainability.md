@@ -62,16 +62,6 @@ Default to lower-cost options (such as search, templates, or small models) for a
 - **[Slider](https://www.patternfly.org/components/slider):** Bounded range when the cap is a scale, not a precise invoice.
 ---
 ## Related standards
--
--
--
--
--
--
--
--
--
--
 ---
 ## Assumptions and research questions
 <a id="assumptions"></a>

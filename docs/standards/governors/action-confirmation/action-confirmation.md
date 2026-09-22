@@ -90,12 +90,9 @@ Action Confirmation is a primary Human-in-the-Loop (HITL) control within the Gov
 
 ## Related Standards
 
--
 - Plan Approval
 - User Override
 - Audit Trails
--
--
 
 ---
 

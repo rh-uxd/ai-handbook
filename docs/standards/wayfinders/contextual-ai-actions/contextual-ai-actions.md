@@ -14,14 +14,14 @@ contributors:
 # Contextual AI actions
 
 ## Overview
-Contextual AI Actions are AI-powered tasks surfaced directly within the interface, scoped to what the user is currently working with — an object, field, view, or system state. Instead of routing the user to a separate chat (OpenShift Lightspeed) or blank prompt, the action appears in place and runs with a single interaction. The action already knows its target, so the user does not have to restate what they are doing. Actions are triggered by a detected condition or anchored to a fixed location in the UI, and they are marked with a  so users can recognize them as AI-driven at a glance.
+Contextual AI Actions are AI-powered tasks surfaced directly within the interface, scoped to what the user is currently working with — an object, field, view, or system state. Instead of routing the user to a separate chat (OpenShift Lightspeed) or blank prompt, the action appears in place and runs with a single interaction. The action already knows its target, so the user does not have to restate what they are doing.
 
 ---
 ## Purpose and value
-- **Reduced friction:** Operates on the right input by default and cuts steps — often multi-step work into a single click. Users prefer AI embedded in tools they already use rather than a separate portal or chat. (;; )
-- **Context-aware relevance:** AI works on the correct target automatically, cutting down on noise and re-prompting. Embedding into the UI means users do not have to think about prompt engineering. (; )
-- **Discoverability:** Consistent AI markers make capabilities visible at the moment of need, including diagnostic and point-of-need help. (; )
-- **Consistency and trust:** A shared convention sets accurate expectations about the output and whether it needs review — preference is for integrating AI into familiar tools rather than a proprietary chat-only surface. (; )
+- **Reduced friction:** Operates on the right input by default and cuts steps — often multi-step work into a single click. Users prefer AI embedded in tools they already use rather than a separate portal or chat.
+- **Context-aware relevance:** AI works on the correct target automatically, cutting down on noise and re-prompting. Embedding into the UI means users do not have to think about prompt engineering.
+- **Discoverability:** Consistent AI markers make capabilities visible at the moment of need, including diagnostic and point-of-need help.
+- **Consistency and trust:** A shared convention sets accurate expectations about the output and whether it needs review — preference is for integrating AI into familiar tools rather than a proprietary chat-only surface.
 - **One legible interaction:** Keeps the affordance in the user’s current workflow as one understandable, in-place action — operators can see context and act without switching systems or decoding a multi-step path to the same outcome. ([Observability Interviews (UXDR-4188)](https://issues.redhat.com/browse/UXDR-4188); )
 ---
 ## When to use
@@ -32,9 +32,9 @@ Contextual AI Actions are AI-powered tasks surfaced directly within the interfac
 - **Reviewable AI role:** The AI output can be accepted, edited, or rejected by a human.
 ---
 ## When not to use
-- **General assistants:** Avoid “Ask AI anything” surfaces that are not tied to the current task. Prefer a conversational or dedicated assistant pattern instead. (; )
+- **General assistants:** Avoid “Ask AI anything” surfaces that are not tied to the current task. Prefer a conversational or dedicated assistant pattern instead.
 - **Open-ended tasks:** Exploratory work belongs in a conversational interface, not a single contextual action.
-- **Interface clutter:** Do not surface actions everywhere; too many AI entry points create visual noise and dilute trust. (; )
+- **Interface clutter:** Do not surface actions everywhere; too many AI entry points create visual noise and dilute trust.
 - **Unreliable detection:** If the system cannot confidently determine when an action applies, do not auto-surface it.
 - **High-stakes without a human gate:** Do not bypass human-in-the-loop acknowledgment for irreversible or consequential operations.
 ---
@@ -42,7 +42,7 @@ Contextual AI Actions are AI-powered tasks surfaced directly within the interfac
 *Only product examples with available visuals are shown here. Additional product opportunities remain documented in Related research until design or shipping screenshots are shared.*
 
 #### Inline link (OpenShift Lightspeed)
-An inline “Learn more” control with the AI cue opens Lightspeed from the current field context — for example, Headless mode on a VirtualMachine — so the action runs on that topic without leaving the page. Matches the “AI in existing tools / no new portals” preference from Summit and Ask Red Hat booth feedback. (; )
+An inline “Learn more” control with the AI cue opens Lightspeed from the current field context — for example, Headless mode on a VirtualMachine — so the action runs on that topic without leaving the page. Matches the “AI in existing tools / no new portals” preference from Summit and Ask Red Hat booth feedback.
 
 OpenShift Lightspeed inline Learn more control opening from Headless mode on a VirtualMachine
 
@@ -56,10 +56,6 @@ OpenShift Lightspeed inline Learn more control opening from Headless mode on a V
 - **[Code editor](https://www.patternfly.org/components/code-editor):** In-editor completion and checks that run against the file or selection in context. Use when the working surface is already a code editor.
 ---
 ## Related standards
--
--
--
--
 ---
 ## Notes for PatternFly
 - **Contextual AI action affordance is not a PatternFly pattern yet:** Button, Menu, Label, Popover, and Code editor cover the primitives, but PatternFly does not document a shared recipe for in-product AI actions — concrete action naming (avoid “AI Assist”), consistent AI visual cue, and scoping to the current object or field. Guidance for that affordance would help products implement this Wayfinder consistently.

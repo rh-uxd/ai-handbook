@@ -18,14 +18,11 @@ Alert messages communicate AI failures, stalled operations, completions, and oth
 
 ---
 ## Purpose and value
-- **Reduce recovery time:** State what failed and what to try next so users can unblock quickly (, OpenShift Lightspeed telemetry)
-- **Preserve trust:** Be honest about AI limits and never fabricate causes for failures. Never hallucinate an explanation of the failure itself
-- **Clarify responsibility:** Make clear whether the AI, the system, or the user's input caused an operation to take place and, whenever possible, call out next steps that the user, or someone else in their organization, should take
-- **Deflect support load:** Route users to docs, troubleshooting guides, or retry paths before escalating
+- **Preserve trust:** Be honest about AI limits and never fabricate causes for failures.
 - **Improve scanability:** Make key operation state changes (unexpected stalling, timeouts, failures, and successes) obvious to the user. ([Designing UX for AI Errors](https://www.uxstalwarts.com/blog/designing-ux-for-ai-errors-how-to-handle-failures-the-right-way/))
 ---
 ## When to use
-- **The AI can't finish a request:** Timeouts, model or network failures, or missing capabilities. See  for details. ([What Should an AI App Show When the Model Fails](https://ai-tldr.dev/learn/building-ai-apps/ai-ux-patterns/ai-error-state-design/))
+- **The AI can't finish a request:** Timeouts, model or network failures, or missing capabilities. ([What Should an AI App Show When the Model Fails](https://ai-tldr.dev/learn/building-ai-apps/ai-ux-patterns/ai-error-state-design/))
 - **External tool or service issues:** APIs, MCP tools, or cluster resources are down or unreachable. ([What Should an AI App Show When the Model Fails](https://ai-tldr.dev/learn/building-ai-apps/ai-ux-patterns/ai-error-state-design/))
 - **Low confidence or unknown answers:** Be clear when the AI doesn't know the answer instead of guessing.
 - **Access, policy, or input errors:** User lacks permissions, actions violate policies, or uploaded files/inputs are unsupported. ([What Should an AI App Show When the Model Fails](https://ai-tldr.dev/learn/building-ai-apps/ai-ux-patterns/ai-error-state-design/))
@@ -35,7 +32,7 @@ Alert messages communicate AI failures, stalled operations, completions, and oth
 ---
 ## When not to use
 - **Loading states or user cancellations:** Use progress indicators for transient loading instead of error messages. Do not treat deliberate user exits (like stopping or pausing) as failures; if a multi-step operation is canceled mid-execution, clearly show what was completed versus what was aborted. ([Notifications UI design](https://www.setproduct.com/blog/notifications-ui-design))
-- **Internal debug detail for end users:** Keep stack traces and raw codes in expandable technical details or logs, not the primary message. Consider Audit trails instead for deep diagnostics
+- **Internal debug detail for end users:** Keep stack traces and raw codes in expandable technical details or logs, not the primary message.
 - **When a silent retry will succeed quickly:** Prefer automatic recovery with optional status, then escalate to an error only if recovery fails ([What Should an AI App Show When the Model Fails](https://ai-tldr.dev/learn/building-ai-apps/ai-ux-patterns/ai-error-state-design/))
 ---
 ## Examples and visualizations
@@ -65,11 +62,7 @@ Our users often rely on third party tools outside of our technical consoles to g
 - **[Severity](https://www.patternfly.org/patterns/status-and-severity):** Providing users with clearly defined status and severity states is essential when sharing important context about their data streams and systems.
 ---
 ## Related standards
--
--
 - Code execution results
--
--
 ---
 ## Assumptions and research questions
 <a id="assumptions"></a>

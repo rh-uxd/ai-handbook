@@ -21,9 +21,9 @@ Plan approval is a multi-step review workflow that lets users inspect, edit, and
 ---
 ## Purpose and value
 - **Preview before execution:** Show the entire proposed sequence so users can see what will happen before anything runs.
-- **Editable plans:** Let users reorder steps, add or remove tasks, and edit parameters instead of taking the plan as-is.. Allowing modification at the step level ensures users are not forced into all-or-nothing consent
+- **Editable plans:** Let users reorder steps, add or remove tasks, and edit parameters instead of taking the plan as-is. Allowing modification at the step level ensures users are not forced into all-or-nothing consent
 - **Risk and cost in view:** Display estimated costs, blast radius, and risks next to the plan so users can choose whether to run it or try a different path.
-- **Progress against the plan:** After approval, show execution status against the agreed steps so the live run stays comparable to what the user signed off on. To achieve this, follow up the approved plan with  to track the status of the plan steps.
+- **Progress against the plan:** After approval, show execution status against the agreed steps so the live run stays comparable to what the user signed off on.
 - **Rollback confidence:** Pair the plan with a clear recovery path. Users asked for guaranteed rollbacks when an approved sequence goes wrong.
 ---
 ## When to use
@@ -34,11 +34,10 @@ Plan approval is a multi-step review workflow that lets users inspect, edit, and
 - **Governed go/no-go:** The plan is a checkpoint in a larger vetting path (governance review, scanning, comparative testing, runtime limits), not a courtesy summary.
 ---
 ## When not to use
-- **A single high-risk action:** If there is one irreversible step rather than a sequence, use  instead of a full plan.
-- **After the fact:** Do not treat a completed run log as plan approval. Use  to show what already happened.
+- **After the fact:** Do not treat a completed run log as plan approval.
 - **All-or-nothing consent:** Do not force users to accept every step to proceed. Let them approve, reject, skip, or edit individual items.
 - **Hidden complexity:** Do not collapse a multi-step operation into a vague “apply fix” label. Show the planned operations, targets, and estimated impact.
-- **Low-risk single tool:** A read-only lookup or one reversible helper does not need a multi-step approval canvas. Keep the lighter  gate.
+- **Low-risk single tool:** A read-only lookup or one reversible helper does not need a multi-step approval canvas.
 - **Code-only execution:** When the main risk is generated code rather than a workflow of product actions, use Code execution controls.
 ---
 ## Examples and visualizations
@@ -57,11 +56,6 @@ Three-panel plan approval flow: inspect numbered steps, modify a step, and reord
 - **[Wizard](https://www.patternfly.org/components/wizard):** Breaks a long task into steps with a required review before finish. Use an in-page or modal wizard when the plan is too large for a chat card and needs a dedicated review step.
 ---
 ## Related standards
--
--
--
--
--
 - User override
 ---
 ## Notes for PatternFly

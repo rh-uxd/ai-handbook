@@ -16,16 +16,16 @@ contributors:
 # Ethics: Bias and fairness
 
 ## Overview
-Bias and fairness is the equity side of ethical AI: people get usable, comparable outcomes across populations, geographies, languages, and abilities — not merely an answer that works for a default user. Accessibility of AI-specific UI (streaming text, inline suggestions, approval flows) lives here.  is whether they can see what the model did;  is whether they can stop or correct it.
+Bias and fairness is the equity side of ethical AI: people get usable, comparable outcomes across populations, geographies, languages, and abilities — not merely an answer that works for a default user. Accessibility of AI-specific UI (streaming text, inline suggestions, approval flows) lives here.
 
 ---
 ## Purpose and value
-- **Equitable outcomes & clear coverage limits:** PatternFly’s Fair principle requires inclusive, accessible systems that avoid amplifying bias. The UI must surface model limitations directly—such as language, regional, or domain gaps—to prevent homogenization and hidden coverage issues. (, [PatternFly About AI](https://www.patternfly.org/patternfly-ai/about-ai))
+- **Equitable outcomes & clear coverage limits:** PatternFly’s Fair principle requires inclusive, accessible systems that avoid amplifying bias. The UI must surface model limitations directly—such as language, regional, or domain gaps—to prevent homogenization and hidden coverage issues. ([PatternFly About AI](https://www.patternfly.org/patternfly-ai/about-ai))
 - **Safe, accurate & continuously evaluated:** Responsible AI requires eliminating hallucinations and harmful outputs while testing continuously across diverse demographics, languages, and assistive technologies throughout development.
 - **Accessibility is fairness:** Features must offer complete task parity across keyboard, screen reader, and pointer users. ([PatternFly About accessibility](https://www.patternfly.org/accessibility/about-accessibility))
 ---
 ## Best practices
-- **Audit UI & prompt examples for bias exposure:** Ensure starter prompts, empty states, error copy, and suggested actions span diverse roles, locales, contexts, and skill levels rather than assuming a single default expert profile.  <a href="#assumptions" class="assumption-marker" style="color:#ee0000;font-weight:700;text-decoration:none">*</a>
+- **Audit UI & prompt examples for bias exposure:** Ensure starter prompts, empty states, error copy, and suggested actions span diverse roles, locales, contexts, and skill levels rather than assuming a single default expert profile.
 - **Surface coverage limits & non-canonical options at point of use:** State model limitations directly next to outputs rather than only in model cards, and provide options to compare, rephrase, or hand off instead of presenting a single flattened result.
 - **Test continuously across diverse demographics & assistive tech:** Red-team for stereotyping, language quality, and cultural contexts. Ensure keyboard and screen-reader paths achieve task parity, and monitor bias continuously post-launch.
 - **Make dynamic AI features accessible to everyone:** Ensure streaming text, inline suggestions, and approval flows work seamlessly with keyboard, voice, and screen readers. Announce activity in chunks via live regions rather than every token, and maintain input focus. Compliance with color accessibility is also imperative to creating fair experiences. ([PatternFly About accessibility](https://www.patternfly.org/accessibility/about-accessibility)) <a href="#assumptions" class="assumption-marker" style="color:#ee0000;font-weight:700;text-decoration:none">*</a>
@@ -40,7 +40,7 @@ Bias and fairness is the equity side of ethical AI: people get usable, comparabl
 ## Ways to achieve ethical bias and fairness
 
 #### Starter prompts and examples
-Design starter prompts, empty states, and onboarding examples for diverse languages, locales, roles, and skill levels. Avoid assuming a standard ‘default’ user or relying on narrow expert workflows. Review  to ensure they do not imply user error or make assumptions about technical ability. Users from any background should immediately recognize how the tool applies to their work.
+Design starter prompts, empty states, and onboarding examples for diverse languages, locales, roles, and skill levels. Avoid assuming a standard ‘default’ user or relying on narrow expert workflows. Users from any background should immediately recognize how the tool applies to their work.
 
 #### Flexible and challengeable outputs
 Avoid presenting a single generated output as the only valid answer when multiple valid approaches exist. Provide options to compare alternatives, rephrase suggestions, or pass the task to a human. If an answer relies on a specific training default (such as a default platform or naming style), state it explicitly so users can adapt the result to their local requirements.
@@ -53,14 +53,6 @@ Ensure dynamic UI elements like streaming text, inline suggestions, chat, and ap
 
 ---
 ## Related standards
--
--
--
--
--
--
--
--
 ---
 ## Assumptions and research questions
 <a id="assumptions"></a>

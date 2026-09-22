@@ -47,7 +47,6 @@ Structured prompts are form-based inputs that guide users to provide well-formed
 - **Too many fields at once** - An overwhelming form increases abandonment — start with required fields only and progressive disclosure.
 - **Open-ended answers forced into dropdowns** - Don't use selects when free text is the right control.
 - **No custom or advanced fallback** - Structure without an escape path traps power users — offer a free-form or advanced option.
-- **Assumptions should be stated, not blocked** - When the system can infer defaults, prefer answering with stated assumptions (and a path to correct them) over stopping for every missing field — use  when ambiguity is unsafe to assume.
 
 ---
 
@@ -89,12 +88,6 @@ Product teams exploring structured prompt authoring can look to playground-style
 
 ## Related Standards
 
--
--
--
--
--
--
 
 ---
 

@@ -19,23 +19,23 @@ Raw text input is free-form natural language entry that lets users communicate w
 
 ---
 ## Purpose and value
-- **Natural expression:** Let users describe problems and goals in human language instead of forcing a catalog of intents. Participants in Ansible agent research called human language the feature that “stood out the most.”
+- **Natural expression:** Let users describe problems and goals in human language instead of forcing a catalog of intents.
 - **Diagnostic paste:** Accept pasted error messages, logs, and API objects as first-class input. OpenShift Lightspeed telemetry shows 81% of attachments are this kind of diagnostic content.
-- **Easy refinement:** Make it simple to edit, clarify, and resubmit without starting over or losing pasted context. (,, [NNGroup (cited in "Forms vs Chat")](https://medium.com/design-bootcamp/forms-vs-chat-stop-picking-a-side-and-start-designing-the-boundary-a012b962de6e), [IBM Iterative Prompting](https://www.ibm.com/think/topics/iterative-prompting))
+- **Easy refinement:** Make it simple to edit, clarify, and resubmit without starting over or losing pasted context. (, [NNGroup (cited in "Forms vs Chat")](https://medium.com/design-bootcamp/forms-vs-chat-stop-picking-a-side-and-start-designing-the-boundary-a012b962de6e), [IBM Iterative Prompting](https://www.ibm.com/think/topics/iterative-prompting))
 ---
 ## When to use
-- **Open-ended troubleshooting:** The user is describing a problem they have not yet classified, and a short list of actions would be incomplete. In this way, the user can continue a thread in their own words after an earlier answer. (,, [Multigrid "Chat vs Forms vs Inline"](https://multigrid.ai/learn/ai-interaction-patterns))
+- **Open-ended troubleshooting:** The user is describing a problem they have not yet classified, and a short list of actions would be incomplete. In this way, the user can continue a thread in their own words after an earlier answer. (, [Multigrid "Chat vs Forms vs Inline"](https://multigrid.ai/learn/ai-interaction-patterns))
 - **Pasting artifacts:** The fastest path is to paste an error message, YAML, JSON, command output, or API object into the composer.
 - **Conversational communication:** Support the interaction mode users already choose at scale. For example, offer examples, helper text, or suggestions when users stall, without turning the composer into a form.
-- **Unknown or mixed intent:** The system cannot reasonably present a complete set of structured fields up front. (, [Multigrid "Chat vs Forms vs Inline"](https://multigrid.ai/learn/ai-interaction-patterns), [UX Planet "AI chat or not?"](https://uxplanet.org/ai-chat-or-not-if-its-a-form-it-should-stay-a-form-0294c59332d6))
-- **Multi-line formatting:** The input includes code, logs, or structured text that must preserve whitespace and line breaks. (, [Frontend Patterns "Prompt Input"](https://frontendpatterns.dev/prompt-input))
+- **Unknown or mixed intent:** The system cannot reasonably present a complete set of structured fields up front. ([Multigrid "Chat vs Forms vs Inline"](https://multigrid.ai/learn/ai-interaction-patterns), [UX Planet "AI chat or not?"](https://uxplanet.org/ai-chat-or-not-if-its-a-form-it-should-stay-a-form-0294c59332d6))
+- **Multi-line formatting:** The input includes code, logs, or structured text that must preserve whitespace and line breaks. ([Frontend Patterns "Prompt Input"](https://frontendpatterns.dev/prompt-input))
 ---
 ## When not to use
-- **Pre-set inputs or field restrictions apply:** If the AI can only perform a closed set of actions, use  or in-context actions instead of an unconstrained box. Additionally, when the task always needs the same data (cluster, namespace, severity), collect those with structured fields and keep free text for the remainder. ([UX Planet "AI chat or not?"](https://uxplanet.org/ai-chat-or-not-if-its-a-form-it-should-stay-a-form-0294c59332d6), [Multigrid "Chat vs Forms vs Inline"](https://multigrid.ai/learn/ai-interaction-patterns), [Smashing Magazine "Matching AI Modality To User Intent"](https://www.smashingmagazine.com/2026/07/matching-ai-modality-user-intent-designing-right-interface/))
-- **Blank page with no guidance:** Do not present an empty composer with no examples, helper text, or. Pair raw text with  or a welcome prompt. (,,, [NNGroup articulation barrier](https://medium.com/design-bootcamp/the-blank-prompt-problem-why-ai-products-are-failing-their-first-session-5e74bcb00b09), [Jakob Nielsen "76 Open Research Questions"](https://jakobnielsenphd.substack.com/p/ai-ux-research), [Chat Is the Wrong Interface](https://tianpan.co/blog/2026-07-04-chat-is-the-wrong-interface))
-- **No echo of understanding:** If the system never restates what it parsed, users cannot correct it. Use  when the input is ambiguous. (, [Restatement checkpoint research](https://grais.ai/research/restatement-checkpoint-before-action), [Intermediate confirmation study](https://arxiv.org/html/2510.05307), [Agentic LLM feedback study](https://arxiv.org/pdf/2602.15569))
+Additionally, when the task always needs the same data (cluster, namespace, severity), collect those with structured fields and keep free text for the remainder. ([UX Planet "AI chat or not?"](https://uxplanet.org/ai-chat-or-not-if-its-a-form-it-should-stay-a-form-0294c59332d6), [Multigrid "Chat vs Forms vs Inline"](https://multigrid.ai/learn/ai-interaction-patterns), [Smashing Magazine "Matching AI Modality To User Intent"](https://www.smashingmagazine.com/2026/07/matching-ai-modality-user-intent-designing-right-interface/))
+(,, [NNGroup articulation barrier](https://medium.com/design-bootcamp/the-blank-prompt-problem-why-ai-products-are-failing-their-first-session-5e74bcb00b09), [Jakob Nielsen "76 Open Research Questions"](https://jakobnielsenphd.substack.com/p/ai-ux-research), [Chat Is the Wrong Interface](https://tianpan.co/blog/2026-07-04-chat-is-the-wrong-interface))
+- **No echo of understanding:** If the system never restates what it parsed, users cannot correct it. ([Restatement checkpoint research](https://grais.ai/research/restatement-checkpoint-before-action), [Intermediate confirmation study](https://arxiv.org/html/2510.05307), [Agentic LLM feedback study](https://arxiv.org/pdf/2602.15569))
 - **Secret required phrasing:** Do not require hidden prompt syntax, slash commands, or magic wording without making that syntax visible and optional. ([Nielsen Heuristic 6, Recognition Rather Than Recall](https://www.uxtigers.com/post/10-heuristics-reimagined), [Microsoft Teams Agent Slash Commands](https://learn.microsoft.com/en-us/microsoftteams/platform/agents-in-teams/agent-slash-commands), [NNGroup AI Discoverability](https://www.nngroup.com/articles/designing-ai-study-guide/), [AI UX Design Guide](https://www.aiuxdesign.guide/guides/conversational-ui-guide/suggested-prompts-and-conversation-starters))
-- **High-risk execution as the only control:** Free-form text can describe an action, but irreversible or privileged operations still need confirmation. See Action confirmation. (, [The Case for Friction in AI UX](https://www.spread.ai/resources/stories/the-case-for-friction-in-ai-ux-why-accept-all-is-the-wrong-pattern), [Intermediate confirmation study](https://arxiv.org/html/2510.05307))
+- **High-risk execution as the only control:** Free-form text can describe an action, but irreversible or privileged operations still need confirmation. See Action confirmation. ([The Case for Friction in AI UX](https://www.spread.ai/resources/stories/the-case-for-friction-in-ai-ux-why-accept-all-is-the-wrong-pattern), [Intermediate confirmation study](https://arxiv.org/html/2510.05307))
 ---
 ## Examples and visualizations
 *Screenshots below may not match existing implementations in products.*
@@ -59,11 +59,6 @@ Users often paste error messages, logs, and API objects directly into AI text in
 - **[Chatbot attachments](https://www.patternfly.org/patternfly-ai/chatbot/chatbot-attachments/react-demos):** Upload, preview, and error handling for files sent with a message. Companion to paste, not a replacement for raw text.
 ---
 ## Related standards
--
--
--
--
--
 - Resource mentions
 ---
 ## Notes for PatternFly

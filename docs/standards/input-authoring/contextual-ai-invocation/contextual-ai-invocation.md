@@ -47,7 +47,7 @@ The value comes down to getting the AI called correctly and with full context, t
 - **Implicit invocation would fire unpredictably:** System-initiated calls on weak or noisy signals feel intrusive and erode trust — if the condition isn't dependable, keep invocation explicit.
 - **The trigger competes with core interactions:** An invocation that hijacks a common gesture, hotkey, or menu slot creates friction and accidental calls.
 - **Invocation is silent or unaccountable:** If the user can't tell the AI was engaged, or can't interrupt it, the mechanism becomes opaque — especially risky when it feeds a consequential action.
-- **Invocation would chain straight into execution without a human gate:** Calling the AI must not, on its own, carry through to a consequential or irreversible operation — implicit invocation may surface a suggestion, but execution still passes through the HITL (human-in-the-loop) review/approval gate and remains reversible via the kill switch. (; )
+- **Invocation would chain straight into execution without a human gate:** Calling the AI must not, on its own, carry through to a consequential or irreversible operation — implicit invocation may surface a suggestion, but execution still passes through the HITL (human-in-the-loop) review/approval gate and remains reversible via the kill switch.
 ---
 ## Examples and visualizations
 *Screenshots below may not match existing implementations in products.*
@@ -75,10 +75,6 @@ Hybrid Cloud Console dashboard where a setup suggestion invokes the HCC setup ta
 - **[Hint](https://www.patternfly.org/components/hint):** Lightweight, dismissible cue that the AI can be invoked for the current situation without forcing a context switch.
 ---
 ## Related standards
--
--
--
--
 ---
 ## Notes for PatternFly
 - **Context handoff is not a PatternFly pattern yet:** Recommended components cover invocation triggers (Button, Menu, Search input, Input group, Hint), but PatternFly does not document a standard recipe for attaching page, object, or selection context at invoke time — for example, context chips, a prefilled prompt, or a clear “context carried” disclosure. A PatternFly guidance or demo for context-aware invocation would help product teams implement this standard consistently.

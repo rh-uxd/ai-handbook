@@ -30,16 +30,15 @@ Log summary and synthesis is an AI output pattern that compresses high-volume lo
 - **Cross-stream incidents:** The same failure spans several pods, services, hosts, or data stores, and there is no convenient way to combine those streams. Synthesize a single timeline and ranked causes.
 - **Pasted or attached logs in chat:** When a user inputs raw log text, YAML, or diagnostic file attachments into a chat message, return an actionable root-cause diagnosis with cited snippets rather than simply restating the pasted content.
 - **Security and performance triage:** Large log sets used to find security issues or performance flaws, as in embedded RHEL and OpenShift AIOps / RCA opportunities. Keep the output diagnostic and scoped to the inspected sources.
-- **Alert catch-up at fleet scale:** Operators watching hundreds of microservices need a blast-radius view (what broke, when, which resources) that still opens the underlying logs. (, [Datadog incident AI summaries](https://www.datadoghq.com/blog/datadog-incident-response-ai-features/))
+- **Alert catch-up at fleet scale:** Operators watching hundreds of microservices need a blast-radius view (what broke, when, which resources) that still opens the underlying logs. ([Datadog incident AI summaries](https://www.datadoghq.com/blog/datadog-incident-response-ai-features/))
 - **Hypothesis-led investigation:** The AI should form a cause, test it against telemetry, and show why competing signals were discarded, rather than summarizing all available logs at once. ([How Datadog built Bits AI SRE](https://www.datadoghq.com/blog/building-bits-ai-sre/), [Log-Insight forensic evidence](https://arxiv.org/html/2607.08529))
 ---
 ## When not to use
 - **Plain-English recap as the product:** Do not ship a paragraph that restates the incident in simpler words. Observability research ranked that feature last-tier. Use this pattern only when the output is a diagnosis with evidence.
 - **A substitute for raw logs:** Never hide or discard the source stream. If users cannot open the cited lines, the synthesis is not trustworthy. Use a log viewer or a log snippet for the evidence layer. ([Source anchoring & grounding](https://agenticuxpatterns.com/patterns/source-anchoring-grounding), [Log-Insight forensic evidence](https://arxiv.org/html/2607.08529))
-- **Live tailing of every line:** Continuous log streaming is an operations view, not synthesis. Use log viewer, streaming output, or  while collection is still running.
+- **Live tailing of every line:** Continuous log streaming is an operations view, not synthesis.
 - **A single obvious error:** If one snippet plus an alert already states the failure and recovery, do not wrap it in an AI summary. ([The End of Alert Fatigue](https://devops.com/the-end-of-alert-fatigue-how-ai-powered-observability-is-transforming-sre-teams-in-2026/), [Incident management trends 2026](https://incident.io/blog/incident-management-tools-trends-2026))
-- **History of what the AI did:** A completed agent run log is an, not a log synthesis.
-- **Ungrounded or unverifiable RCA:** If the model cannot cite the template, line, timestamp, or source used for a claim, say so and show the raw excerpt. Do not invent a cause. (, [Citations and sources in an AI interface](https://multigrid.ai/learn/citation-ux))
+- **Ungrounded or unverifiable RCA:** If the model cannot cite the template, line, timestamp, or source used for a claim, say so and show the raw excerpt. Do not invent a cause. ([Citations and sources in an AI interface](https://multigrid.ai/learn/citation-ux))
 - **Remediation without a governor:** Synthesis can recommend a next step. Destructive or privileged follow-through still needs plan approval or human-in-the-loop, not an implied “fix it” from the summary. ([Action-first incident UX](https://www.ilert.com/blog/action-first-ux-vs-conversational-ai-incident-response))
 ---
 ## Examples and visualizations
@@ -65,10 +64,6 @@ Logs table with an AI synthesis column, expanded evidence snippet, and related, 
 - **[Alert](https://www.patternfly.org/components/alert):** Brief, important status messages. Use it when the synthesis is partial, low-confidence, or missing sources, not as a substitute for the diagnosis card.
 ---
 ## Related standards
--
--
--
--
 - Code execution results
 - Source attribution
 ---
