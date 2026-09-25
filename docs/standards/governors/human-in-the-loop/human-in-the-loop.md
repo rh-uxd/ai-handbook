@@ -60,7 +60,7 @@ Before a consequential workspace change, the user reviews AI-generated impact (w
 
 Migration review flow: Change workspace modal with Review control opening Virtual Assistant impact analysis before submit
 
-*[Github](https://github.com/KendraMar/HCCconcierge) (Experience 4 - follow the pink arrows for expected userflow)*
+*[GitHub](https://github.com/KendraMar/HCCconcierge) (Experience 4 - follow the pink arrows for expected userflow)*
 
 #### HITL authorization workflow
 A person triggers work that needs review before it can move forward. The agent presents findings — summarized information, source links, and proposed changes. The person reviews the plan (questions, potential outcomes, linked resources), can modify or override the decision, then either approves and executes or stops the run with a kill switch.
