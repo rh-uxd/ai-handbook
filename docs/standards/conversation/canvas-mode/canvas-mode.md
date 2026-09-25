@@ -107,7 +107,7 @@ To address data privacy and maintain brand consistency, all canvas mode integrat
 
 After prompting the AI bot to utilize the canvas mode feature, a dismissable label should be enabled within the message bar to indicate to the user that canvas mode is currently active.
 
-**Custom message bar label not in official API:** [The canvas label](https://www.patternfly.org/extensions/chatbot/ui#message-bar-with-custom-attach-menu-and-additional-actions) in the custom message bar on patternfly.org was added as a custom prop. This approach is not part of the official @patternfly/chatbot component API; it may need to be upstreamed or documented as an extension pattern for other teams to replicate.
+Custom message bar label not in official API: [The canvas label](https://www.patternfly.org/extensions/chatbot/ui#message-bar-with-custom-attach-menu-and-additional-actions) in the custom message bar on patternfly.org was added as a custom prop. This approach is not part of the official @patternfly/chatbot component API; it may need to be upstreamed or documented as an extension pattern for other teams to replicate.
 
 Message bar with a dismissible Canvas label next to the model selector
 
@@ -131,13 +131,13 @@ Split-screen chatbot with an empty canvas pane beside the conversation
 
 Canvas code editor showing an HTML document beside the chatbot conversation
 
-#### PatternFly - Canvas with topology nodes *
+#### PatternFly - Canvas with topology nodes <a href="#assumptions" class="assumption-marker" style="color:#ee0000;font-weight:700;text-decoration:none">*</a>
 
 This pattern is an assumption. This pattern has yet to be implemented. The topology node output and wired up logic should be determined by the product area.
 
 Canvas topology layout with connected nodes beside the chatbot conversation
 
-#### PatternFly - Canvas with document editor *
+#### PatternFly - Canvas with document editor <a href="#assumptions" class="assumption-marker" style="color:#ee0000;font-weight:700;text-decoration:none">*</a>
 
 This pattern is an assumption. This example serves as a general design pattern recommendation for structuring document editing.
 
@@ -177,6 +177,11 @@ Chatbot attach menu with Enable Canvas Mode highlighted
 
 ## Related standards
 
+- [Action confirmation](../../governors/action-confirmation/action-confirmation.md)
+- [Plan approval](../../governors/plan-approval/plan-approval.md)
+- [Audit trails](../../governors/audit-trails/audit-trails.md)
+- [Long-Running Operations](../../generation-output/long-running-operations/long-running-operations.md)
+- [Raw text input](../../input-authoring/raw-text-input/raw-text-input.md)
 
 ---
 
@@ -189,11 +194,12 @@ Chatbot attach menu with Enable Canvas Mode highlighted
 
 ## Assumptions and research questions
 
+<a id="assumptions"></a>
 #### Assumptions
 
-Assumptions are indicated with * throughout the standard.
+Assumptions are indicated with <a href="#assumptions" class="assumption-marker" style="color:#ee0000;font-weight:700;text-decoration:none">*</a> throughout the standard.
 
-- **[Examples and visualizations](#examples-and-visualizations):** PatternFly - Canvas with topology nodes, PatternFly - Canvas with document editor
+- **[Example visualizations](#examples-and-visualizations):** PatternFly - Canvas with topology nodes, PatternFly - Canvas with document editor,
 
 #### Research questions
 

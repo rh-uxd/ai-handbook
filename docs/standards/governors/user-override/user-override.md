@@ -21,7 +21,7 @@ User override enables people to modify, reject, or manually control AI recommend
 
 ## Purpose and value
 
-- **Keeps humans in charge of the plan:** Users want to modify the plan, not only approve or reject a binary choice.
+- **Keeps humans in charge of the plan**: Users want to modify the plan, not only approve or reject a binary choice.
 - **Treats AI output as an editable draft:** Suggestions are starting points users can adjust before execution, similar to a PowerShell “WhatIf” preview mindset inspect and reshape before commit.
 - **Supports partial acceptance:** People can keep what is useful, change what is wrong, and discard the rest — without forcing an all-or-nothing decision.
 - **Preserves engineer control:** Practitioners explicitly want more control — including editing flows and exporting artifacts (for example YAML/JSON) into their own tooling.
@@ -61,7 +61,7 @@ User override enables people to modify, reject, or manually control AI recommend
 Users asked to modify agent-generated plans — not only approve or reject — including requests for a test plan the agent generates that they can manually adjust before execution. Override here means editable workflow/plan control before run.
 
 
-*(No product visual is included here yet for a dedicated “edit the plan” override surface; treat visual treatment as an assumption until design or shipping screenshots are shared.)* *
+*(No product visual is included here yet for a dedicated “edit the plan” override surface; treat visual treatment as an assumption until design or shipping screenshots are shared.)* <a href="#assumptions" class="assumption-marker" style="color:#ee0000;font-weight:700;text-decoration:none">*</a>
 
 #### Prompt management: Save As / Fork and versioning
 
@@ -93,6 +93,13 @@ Booth and Summit notes frame AI output with a PowerShell “WhatIf” analogy, u
 
 ## Related standards
 
+- [Human-in-the-Loop (HITL)](../human-in-the-loop/human-in-the-loop.md)
+- [Action Confirmation](../action-confirmation/action-confirmation.md)
+- [Retry & Recovery](../../error-handling/retry-recovery/retry-and-recovery.md)
+- [Plan Approval](../plan-approval/plan-approval.md)
+- [Audit Trails](../audit-trails/audit-trails.md)
+- [Prompt templates](../../conversation/prompt-templates/prompt-templates.md)
+- [Structured prompts](../../input-authoring/structured-prompts/structured-prompts.md)
 
 ---
 
@@ -104,9 +111,10 @@ Booth and Summit notes frame AI output with a PowerShell “WhatIf” analogy, u
 
 ## Assumptions and research questions
 
+<a id="assumptions"></a>
 #### Assumptions
 
-Assumptions are indicated with * throughout the standard.
+Assumptions are indicated with <a href="#assumptions" class="assumption-marker" style="color:#ee0000;font-weight:700;text-decoration:none">*</a> throughout the standard.
 
 - **[Examples and visualizations](#examples-and-visualizations):** Ansible agent-based automation (UXDR-4913)
 
@@ -116,7 +124,7 @@ Assumptions are indicated with * throughout the standard.
 2. How should the UI show what the AI suggested versus what the user changed?
 3. What override affordances are essential mid-workflow vs. only at end of plan?
 
-#### Proposed metrics to track
+#### Proposed Metrics to track
 
 1. Override rate: % of AI suggestions where users modify at least one element before accepting.
 2. Override-to-accept friction ratio: Number of interactions required to override vs. accept. Evaluate if override ≤ accept.

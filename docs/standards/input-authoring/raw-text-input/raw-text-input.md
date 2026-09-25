@@ -4,7 +4,7 @@ description: "Free-form text input that lets users communicate with AI in natura
 category: "Input & Authoring"
 status: "Experimental"
 date: 2026-08-14
-last_updated: 2026-09-17
+last_updated: 2026-09-25
 contributors:
   - "Mary Shakshober-Crossman"
   - "Lisa Lyman"
@@ -59,7 +59,11 @@ Users often paste error messages, logs, and API objects directly into AI text in
 - **[Chatbot attachments](https://www.patternfly.org/patternfly-ai/chatbot/chatbot-attachments/react-demos):** Upload, preview, and error handling for files sent with a message. Companion to paste, not a replacement for raw text.
 ---
 ## Related standards
-- Resource mentions
+- [Structured prompts](../structured-prompts/structured-prompts.md)
+- [Prompt templates](../../conversation/prompt-templates/prompt-templates.md)
+- [Prompt suggestions](../../wayfinders/prompt-suggestions/prompt-suggestions.md)
+- [Clarification prompts](../../conversation/clarification-prompts/clarification-prompts.md)
+- [Contextual AI invocation](../contextual-ai-invocation/contextual-ai-invocation.md)
 ---
 ## Notes for PatternFly
 - **Interpretation echo:** Message bar and text area capture input, but PatternFly does not document a pattern for restating what the AI understood from unstructured text before it acts.
@@ -67,6 +71,8 @@ Users often paste error messages, logs, and API objects directly into AI text in
 - **Formatting preservation:** Pasted YAML, JSON, and logs need whitespace and line breaks kept intact. Chatbot content handles markdown in output; input-side formatting guarantees are not spelled out.
 ---
 ## Assumptions and research questions
+#### Research questions
+No assumptions made.
 #### Research questions
 1. What proportion of inputs are diagnostic pastes vs. natural language questions vs. mixed content?
 2. When users receive AI interpretation, how often do they correct it?

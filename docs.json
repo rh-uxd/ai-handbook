@@ -1,9 +1,9 @@
 {
   "version": "1",
-  "generated": "2026-09-25T16:41:00.000Z",
+  "generated": "2026-09-25T20:32:12.000Z",
   "meta": {
-    "totalEntries": 35,
-    "totalDocs": 35,
+    "totalEntries": 37,
+    "totalDocs": 38,
     "source": "rh-uxd-ai-handbook"
   },
   "docs": {
@@ -127,6 +127,18 @@
         "version": "v1"
       }
     ],
+    "EthicsHarmreduction": [
+      {
+        "displayName": "Ethics: Harm reduction",
+        "description": "Protect people from harmful outputs, dangerous behavioral patterns, and misrepresented capabilities by embedding safety into AI before those outputs reach the user",
+        "pathSlug": "standards-foundations-ethics-harm-reduction-ethics-hardm-reduction",
+        "section": "ai-design-standards",
+        "category": "foundations",
+        "source": "rh-uxd-ai-handbook",
+        "path": "https://raw.githubusercontent.com/rh-uxd/ai-handbook/main/docs/standards/foundations/ethics-harm-reduction/ethics-hardm-reduction.md",
+        "version": "v1"
+      }
+    ],
     "EthicsHumanoversight": [
       {
         "displayName": "Ethics: Human oversight",
@@ -136,6 +148,18 @@
         "category": "foundations",
         "source": "rh-uxd-ai-handbook",
         "path": "https://raw.githubusercontent.com/rh-uxd/ai-handbook/main/docs/standards/foundations/ethics-human-oversight/ethics-human-oversight.md",
+        "version": "v1"
+      }
+    ],
+    "EthicsSkillandexpertisepreservationandenhancement": [
+      {
+        "displayName": "Ethics: Skill and expertise preservation and enhancement",
+        "description": "Help people develop and sharpen professional capabilities through AI-assisted work rather than outsourcing the skills their job depends on",
+        "pathSlug": "standards-foundations-ethics-skill-and-expertise-preservation-ethics-skill-expertise-preservation",
+        "section": "ai-design-standards",
+        "category": "foundations",
+        "source": "rh-uxd-ai-handbook",
+        "path": "https://raw.githubusercontent.com/rh-uxd/ai-handbook/main/docs/standards/foundations/ethics-skill-and-expertise-preservation/ethics-skill-expertise-preservation.md",
         "version": "v1"
       }
     ],
@@ -203,6 +227,16 @@
       {
         "displayName": "Long-Running Operations",
         "description": "Notify users when AI work will take five or more minutes, keep the task running in the background, and deliver clear completion (or failure) signals so they can leave and return with confidence",
+        "pathSlug": "standards-trust-builders-chain-of-thought-chain-of-thought",
+        "section": "ai-design-standards",
+        "category": "generation-output",
+        "source": "rh-uxd-ai-handbook",
+        "path": "https://raw.githubusercontent.com/rh-uxd/ai-handbook/main/docs/standards/trust-builders/chain-of-thought/chain-of-thought.md",
+        "version": "v1"
+      },
+      {
+        "displayName": "Long-Running Operations",
+        "description": "Guide users through AI work that takes longer than a brief interaction, with progressive wait tiers, honest expectations, and a clear signal when work finishes or fails",
         "pathSlug": "standards-generation-output-long-running-operations-long-running-operations",
         "section": "ai-design-standards",
         "category": "generation-output",

@@ -4,14 +4,12 @@ description: "Help people see what is AI-generated, where it came from, how sure
 category: "Foundations"
 status: "Recommended"
 date: 2026-09-10
-last_updated: 2026-09-18
+last_updated: 2026-09-25
 contributors:
   - "Mary Shakshober-Crossman"
   - "Jason Brock"
   - "Applied AI UX"
 ---
-
-<p>🚧 <strong><em style="color:#c86500">Work in progress</em></strong> <em>(remove when ‘done’)</em></p>
 
 # Ethics: Transparency and information integrity
 
@@ -27,9 +25,11 @@ Transparency and information integrity is the perception side of ethical AI: peo
 - **Provenance that can survive scrutiny:** In regulated work, incorrect or unattributed generated material can mean fines in the millions. Users need to trace an output back to sources, model, or human edit.
 ---
 ## Best practices
-- **Separate verbatim from inference:** Show what was retrieved or quoted versus what the model inferred so people could see which claims were directly sourced.
-- **Disclose limits where over-trust would happen:** Capability and limitation copy belongs next to the action, not only in a model card. Users benefit when the AI experience is narrowly scoped, and they need capabilities and limitations communicated to manage expectations.
-- **Keep users informed of what AI is doing:** What was sent, stored, or used to generate this answer should be visible in the flow, not only in a legal footer. ([Not All Transparency Is Equal](https://doi.org/10.48550/arxiv.2512.12207))
+1. **Separate verbatim from inference:** Show what was retrieved or quoted versus what the model inferred so people could see which claims were directly sourced.
+2.
+3. Indicate recommendations: When multiple paths forward exist and/or supporting evidence is scarce, it is best to show a clear indicator of the best recommendation or most likely cause for an error.
+4. **Disclose limits where over-trust would happen:** Capability and limitation copy belongs next to the action, not only in a model card. Users benefit when the AI experience is narrowly scoped, and they need capabilities and limitations communicated to manage expectations.
+5. **Keep users informed of what AI is doing:** What was sent, stored, or used to generate this answer should be visible in the flow, not only in a legal footer. ([Not All Transparency Is Equal](https://doi.org/10.48550/arxiv.2512.12207))
 ---
 ## Things to avoid
 - **Unlabeled generated content:** If a summary, patch, or recommendation can be mistaken for a system fact or a human author, it is not transparent. ([The EU AI Act’s Transparency Rules](https://artificialintelligenceact.eu/transparency-rules-article-50/), [Implied Authenticity Effect](https://ojs.aaai.org/index.php/ICWSM/article/view/42721))
@@ -50,13 +50,21 @@ When a claim depends on retrieved knowledge, show the [specific sources](https:/
 
 Chatbot message with a viewable sources card linking to Getting started with Red Hat OpenShift
 
-#### Surface data and actions to the user before, during, and after AI execution
+#### Surface data and actions to the user before, during and, after AI execution
 Show what context was sent, stored, or used to produce this output — files attached, cluster state, conversation memory — at the moment of use. Link to deeper privacy details, but do not make the product disclosure a legal-only page. A plain-English “AI-generated summary” ranked 11 of 12 in observability prioritization — people want evidence, not a narrative recap.
 
 ---
 ## Related standards
-- Ethics: Harm reduction
-- Source attribution
+- [Ethics: Human oversight](../ethics-human-oversight/ethics-human-oversight.md)
+- [Ethics: Harm reduction](../ethics-harm-reduction/ethics-hardm-reduction.md)
+- [Audit trails](../../governors/audit-trails/audit-trails.md)
+- [Alert messages](../../error-handling/alert-messages/alert-messages.md)
+- [Clarification prompts](../../conversation/clarification-prompts/clarification-prompts.md)
+- [Log summary & synthesis](../../generation-output/log-summary-and-synthesis/log-summary-synthesis.md)
+- [Contextual AI invocation](../../input-authoring/contextual-ai-invocation/contextual-ai-invocation.md)
+- [Source attribution](../../trust-builders/source-attribution/source-attribution.md)
+- [Ethics: Skill and expertise preservation](../ethics-skill-and-expertise-preservation/ethics-skill-expertise-preservation.md)
+- [Ethics: Bias and fairness](../ethics-bias-and-fairness/ethics-bias-and-fairness.md)
 ---
 ## Assumptions and research questions
 <a id="assumptions"></a>

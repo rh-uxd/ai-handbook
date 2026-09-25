@@ -4,7 +4,7 @@ description: "When the AI recognizes ambiguity in a query, ask a targeted multip
 category: "Conversation"
 status: "Experimental"
 date: 2026-08-06
-last_updated: 2026-09-18
+last_updated: 2026-09-25
 contributors:
   - "Anh Nguyen"
   - "Lisa Lyman"
@@ -40,13 +40,10 @@ Clarification prompts are one of four conversational prompt types (alongside str
 ## Examples and visualizations
 *Screenshots below may not match existing implementations in products.*
 
-### Guidance on how to structure prompts
+#### Guidance on how to structure prompts
+**Clarification response shape:** Acknowledge what was understood (“I can help you check certificate status.”), name the ambiguity (“I see 3 clusters in your environment.”), then offer limited choices (about 3–5 clickable options plus an “Other” or free-text path) rather than an open-ended “Can you be more specific?”
 
-#### Clarification response shape
-Acknowledge what was understood (“I can help you check certificate status.”), name the ambiguity (“I see 3 clusters in your environment.”), then offer limited choices (about 3–5 clickable options plus an “Other” or free-text path) rather than an open-ended “Can you be more specific?”
-
-#### Chaining clarifications (anti-pattern)
-Avoid this: after the user answers one clarification, asking another before delivering a usable answer. Example — User: “Check certificate status.” → AI: “Which cluster?” → User: “prod-east.” → AI: “Which namespace?” That second clarification is chaining. Prefer one focused question with choices (as in Clarification response shape above), then answer using the reply plus context or a stated default for any remaining details.
+**Chaining clarifications (anti-pattern):** Avoid this: after the user answers one clarification, asking another before delivering a usable answer. Example — User: “Check certificate status.” → AI: “Which cluster?” → User: “prod-east.” → AI: “Which namespace?” That second clarification is chaining. Prefer one focused question with choices (as in Clarification response shape above), then answer using the reply plus context or a stated default for any remaining details.
 
 #### PatternFly Chatbot — Quick replies (stacked)
 PatternFly’s Chatbot Design Framework shows stacked quick replies as clickable choice chips after a bot message — the closest published design for the limited-choice part of this clarification shape (about 3–5 options, including an “Other” / “Something else” path). The image below represents both examples above: the clarification response shape (acknowledge, name the ambiguity, then limited choices plus an Other path) and this PatternFly quick-replies choice UI. Pair the mock with acknowledge + name-the-ambiguity copy; it is not a shipped Red Hat product screenshot.
@@ -62,6 +59,11 @@ PatternFly Chatbot stacked quick replies with five choice chips including Someth
 - **[React Chatbot](https://www.patternfly.org/patternfly-ai/react-chatbot/overview):** Conversation surfaces where clarification turns appear inline before the AI commits to an answer.
 ---
 ## Related standards
+- [Prompt suggestions](../../wayfinders/prompt-suggestions/prompt-suggestions.md)
+- [Prompt templates](../prompt-templates/prompt-templates.md)
+- [Structured prompts](../../input-authoring/structured-prompts/structured-prompts.md)
+- [Contextual AI Invocation](../../input-authoring/contextual-ai-invocation/contextual-ai-invocation.md)
+- [Human-in-the-Loop (HITL)](../../governors/human-in-the-loop/human-in-the-loop.md)
 ---
 ## Notes for PatternFly
 - **Clarification choice UI is not a PatternFly pattern yet:** Radio, Button, Form, Helper text, and React Chatbot cover the primitives, and Messages with quick responses provide clickable choice chips, but PatternFly does not document a standard recipe for an inline clarification turn — acknowledge what was understood, name the ambiguity, and offer about 3–5 choices plus an Other path before the assistant commits to an answer. Guidance for that clarification turn would help product teams implement this standard consistently.
@@ -69,7 +71,6 @@ PatternFly Chatbot stacked quick replies with five choice chips including Someth
 ## Assumptions and research questions
 <a id="assumptions"></a>
 #### Assumptions
-Assumptions are indicated with <a href="#assumptions" class="assumption-marker" style="color:#ee0000;font-weight:700;text-decoration:none">*</a> throughout the standard.
-- **No assumptions were made**
+No assumptions made.
 #### Research questions
-- Research team to add assumptions or further research questions.
+No research questions at this time.

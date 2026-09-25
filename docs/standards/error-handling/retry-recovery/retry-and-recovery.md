@@ -34,7 +34,7 @@ Retry and recovery enables users to recover from AI failures through intelligent
 ## When to use
 
 - **Transient technical failures:** Timeouts, rate limits, and temporary service unavailability — treat each as its own state, not one generic retry. Timeouts: auto-retry with backoff, then offer a clear manual retry. Rate limits: wait for the allowed window (show when retry is available) before trying again — do not hammer immediate retries. Temporary service unavailability: auto-retry with backoff; if it persists, offer retry, a fallback path, or wait guidance rather than only “try again.” ([What Should an AI App Show When the Model Fails?
-- **Partial or interrupted results:** Streaming cutoffs or incomplete runs where the user can continue, regenerate, or resume from the last good step. ([What Should an AI App Show When the Model Fails? Error State Design](https://ai-tldr.dev/learn/building-ai-apps/ai-ux-patterns/ai-error-state-design/))
+- **Partial or interrupted results:** Streaming cutoffs or incomplete runs where the user can continue, regenerate, or resume from the last good step. ([What Should an AI App Show When the Model Fails?](https://ai-tldr.dev/learn/building-ai-apps/ai-ux-patterns/ai-error-state-design/))
 - **Quality failures that need a different approach:** “Almost right” or inconsistent outputs where retrying unchanged is unlikely to help — guide a correction, parameter change, or alternate path.
 - **Long-running or multi-step agent workflows:** Pause at the failure point, let the user investigate or override, then resume without losing prior progress.
 - **After repeated failures:** Offer alternatives — docs, troubleshooting, support, or a fully manual path — once retries are exhausted.
@@ -43,12 +43,12 @@ Retry and recovery enables users to recover from AI failures through intelligent
 
 ## When not to use
 
-- **Do not retry infinitely:** Cap automatic and user-driven retries; after a small number of attempts, stop and offer another path. Error State Design](https://ai-tldr.dev/learn/building-ai-apps/ai-ux-patterns/ai-error-state-design/))
+- **Do not retry infinitely:** Cap automatic and user-driven retries; after a small number of attempts, stop and offer another path. (; [What Should an AI App Show When the Model Fails?](https://ai-tldr.dev/learn/building-ai-apps/ai-ux-patterns/ai-error-state-design/))
 - **Do not silently retry expensive or high-impact operations:** Costly model calls, production mutations, or credentialed actions need visibility and often confirmation before another attempt.
-- **Do not reset context on retry:** Preserve prompts, attachments, selections, and workflow state so users are not punished for the failure. ([Error state](https://uxpatternsguide.com/patterns/error-state/), [Silence is a Design Decision](https://www.thetruecode.com/the-true-code-of-production-systems/silence-is-a-design-decision/), [What Should an AI App Show When the Model Fails? Error State Design](https://ai-tldr.dev/learn/building-ai-apps/ai-ux-patterns/ai-error-state-design/))
-- **Do not retry the identical failed request unchanged:** If the same inputs already failed, change something (parameters, guidance, provider, or approach) or escalate. Error State Design](https://ai-tldr.dev/learn/building-ai-apps/ai-ux-patterns/ai-error-state-design/))
-- **Do not hide retry history:** Users and operators need to see what was tried, what changed, and why further retries stopped. ([Override Patterns: When AI Needs Human Correction](https://www.operion.io/learn/component/override-patterns), [XAgen: An Explainability Tool for Identifying and Correcting Failures in Multi-Agent Workflows](https://arxiv.org/pdf/2512.17896))
-- **Do not use retry for permanent failures:** Permission denials, policy blocks, and invalid inputs need explanation and a different action — not another attempt at the same request. Error State Design](https://ai-tldr.dev/learn/building-ai-apps/ai-ux-patterns/ai-error-state-design/))
+- **Do not reset context on retry:** Preserve prompts, attachments, selections, and workflow state so users are not punished for the failure. ([Error state](https://uxpatternsguide.com/patterns/error-state/), [Silence is a Design Decision](https://www.thetruecode.com/the-true-code-of-production-systems/silence-is-a-design-decision/), [What Should an AI App Show When the Model Fails?](https://ai-tldr.dev/learn/building-ai-apps/ai-ux-patterns/ai-error-state-design/))
+- **Do not retry the identical failed request unchanged:** If the same inputs already failed, change something (parameters, guidance, provider, or approach) or escalate. ([What Should an AI App Show When the Model Fails?](https://ai-tldr.dev/learn/building-ai-apps/ai-ux-patterns/ai-error-state-design/))
+- **Do not hide retry history:** Users and operators need to see what was tried, what changed, and why further retries stopped. ([Override Patterns](https://www.operion.io/learn/component/override-patterns), [XAgen](https://arxiv.org/pdf/2512.17896))
+- **Do not use retry for permanent failures:** Permission denials, policy blocks, and invalid inputs need explanation and a different action — not another attempt at the same request. ([What Should an AI App Show When the Model Fails?](https://ai-tldr.dev/learn/building-ai-apps/ai-ux-patterns/ai-error-state-design/))
 
 ---
 
@@ -61,7 +61,7 @@ Retry and recovery enables users to recover from AI failures through intelligent
 Platform guidance treats errors as opportunities for guided recovery: plain-language explanation of what went wrong and what to do next (for example, retry a step or wait), plus manual override and resume so long-running workflows can pause at the failure point, allow a human fix, and continue without restarting from scratch.
 
 
-*(No product visual is included here yet; treat visual treatment as an assumption until design or shipping screenshots are shared)* *
+*(No product visual is included here yet; treat visual treatment as an assumption until design or shipping screenshots are shared)* <a href="#assumptions" class="assumption-marker" style="color:#ee0000;font-weight:700;text-decoration:none">*</a>
 
 #### Ansible agent-based automation (UXDR-4913)
 
@@ -74,7 +74,7 @@ Ansible automation canvas before and after adding an API trigger to a Backup Dat
 
 Competitive analysis of agent-based UIs notes that some tools embed retry, edit, and fix actions directly in execution logs or step output — so recovery is available at the point of failure, not only as a global “try again.”
 
-*(Treat this as a design opportunity and assumption until Red Hat product screenshots are available)* *
+*(Treat this as a design opportunity and assumption until Red Hat product screenshots are available)* <a href="#assumptions" class="assumption-marker" style="color:#ee0000;font-weight:700;text-decoration:none">*</a>
 
 ---
 
@@ -91,7 +91,12 @@ Competitive analysis of agent-based UIs notes that some tools embed retry, edit,
 
 ## Related standards
 
-- Graceful Degradation
+- [Alert Messages](../alert-messages/alert-messages.md)
+- [User Override](../../governors/user-override/user-override.md)
+- [Long-Running Operations](../../generation-output/long-running-operations/long-running-operations.md)
+- [Action Confirmation](../../governors/action-confirmation/action-confirmation.md)
+- [Human-in-the-Loop (HITL)](../../governors/human-in-the-loop/human-in-the-loop.md)
+- [Audit Trails](../../governors/audit-trails/audit-trails.md)
 
 ---
 
@@ -103,16 +108,14 @@ Competitive analysis of agent-based UIs notes that some tools embed retry, edit,
 
 ## Assumptions and research questions
 
+<a id="assumptions"></a>
 #### Assumptions
 
-Assumptions are indicated with * throughout the standard.
+Assumptions are indicated with <a href="#assumptions" class="assumption-marker" style="color:#ee0000;font-weight:700;text-decoration:none">*</a> throughout the standard.
 
-- **[When not to use](#when-not-to-use):** Do not reset context on retry; Do not hide retry history
-- **[Examples and visualizations](#examples-and-visualizations):** Guided error recovery visual treatment; Competitor retry-in-logs as a Red Hat design opportunity
+- **[Examples and visualizations](#examples-and-visualizations):** Defaults can be inferred safely, Competitor patterns: retry actions in execution output
 
 #### Research questions
-
-- Research team to add assumptions or further research questions.
 
 1. What retry strategies do users expect: same approach modified, or a completely different path?
 2. How should the system communicate what changed between retry attempts?

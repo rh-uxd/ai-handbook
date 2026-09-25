@@ -4,14 +4,12 @@ description: "Multi-step review that lets users inspect, edit, and approve AI-pr
 category: "Governors"
 status: "Experimental"
 date: 2026-08-20
-last_updated: 2026-09-18
+last_updated: 2026-09-25
 contributors:
   - "Mary Shakshober-Crossman"
   - "Jingfu Tan"
   - "Applied AI UX"
 ---
-
-<p>🚧 <strong><em style="color:#c86500">Work in progress</em></strong> <em>(remove when ‘done’)</em></p>
 
 # Plan approval
 
@@ -21,7 +19,7 @@ Plan approval is a multi-step review workflow that lets users inspect, edit, and
 ---
 ## Purpose and value
 - **Preview before execution:** Show the entire proposed sequence so users can see what will happen before anything runs.
-- **Editable plans:** Let users reorder steps, add or remove tasks, and edit parameters instead of taking the plan as-is. Allowing modification at the step level ensures users are not forced into all-or-nothing consent
+- **Editable plans:** Let users reorder steps, add or remove tasks, and edit parameters instead of taking the plan as-is. Allowing modification at the step level ensures users are not forced into all-or-nothing consent. Users should not be allowed to edit the raw commands though, as that might impact other elements of the plan. Instead, allow users to interact with conversational AI to request changes to the plan.
 - **Risk and cost in view:** Display estimated costs, blast radius, and risks next to the plan so users can choose whether to run it or try a different path.
 - **Progress against the plan:** After approval, show execution status against the agreed steps so the live run stays comparable to what the user signed off on.
 - **Rollback confidence:** Pair the plan with a clear recovery path. Users asked for guaranteed rollbacks when an approved sequence goes wrong.
@@ -46,6 +44,8 @@ Plan approval is a multi-step review workflow that lets users inspect, edit, and
 #### General example (inspired by Ansible remediations playbook)
 The PatternFly Chatbot [messages with tool calls](https://www.patternfly.org/patternfly-ai/chatbot/messages/#messages-with-tool-calls) pattern is the closest current building block, so the recommended visualization combines the ‘tool call’ style container with a headerless expandable with the addition of the wizard-style chronological numbers and an [action list](https://www.patternfly.org/components/action-list) so the user can modify a step (ie. reorder steps, ask for changes in the step, etc.) remove a step, or approve a step. Designers can include other information based on their use cases including, but not limited to: table cells for AI cost. <a href="#assumptions" class="assumption-marker" style="color:#ee0000;font-weight:700;text-decoration:none">*</a>
 
+*Note:* Additional visualizations can be added to include a code snippet or a ‘View commands’ link within each line of the plan, if extra transparency is required.
+
 Three-panel plan approval flow: inspect numbered steps, modify a step, and reorder the plan
 
 ---
@@ -56,10 +56,15 @@ Three-panel plan approval flow: inspect numbered steps, modify a step, and reord
 - **[Wizard](https://www.patternfly.org/components/wizard):** Breaks a long task into steps with a required review before finish. Use an in-page or modal wizard when the plan is too large for a chat card and needs a dedicated review step.
 ---
 ## Related standards
-- User override
+- [Action confirmation](../action-confirmation/action-confirmation.md)
+- [Human-in-the-loop (HITL)](../human-in-the-loop/human-in-the-loop.md)
+- [Audit Trails](../audit-trails/audit-trails.md)
+- [Long-running operations](../../generation-output/long-running-operations/long-running-operations.md)
+- [Chain of thought](../../trust-builders/chain-of-thought/chain-of-thought.md)
+- [User override](../user-override/user-override.md)
 ---
 ## Notes for PatternFly
-- **New table variant request:** Headerless table with chronological numbers to achieve the needs of this standard
+- **New table variant request** for headerless table with chronological numbers to achieve the needs of this standard
 ---
 ## Assumptions and research questions
 <a id="assumptions"></a>

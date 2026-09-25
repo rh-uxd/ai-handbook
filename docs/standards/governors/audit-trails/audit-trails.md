@@ -4,7 +4,7 @@ description: "Record and display transparent history of AI actions, decisions, a
 category: "Governors"
 status: "Experimental"
 date: 2026-07-29
-last_updated: 2026-09-17
+last_updated: 2026-09-25
 contributors:
   - "Mary Shakshober-Crossman"
   - "Lisa Lyman"
@@ -59,7 +59,10 @@ While more robust tables are better suited for full page rendering, you may also
 - **[Primary detail](https://www.patternfly.org/patterns/primary-detail/react-demos/primary-detail-full-page/):** A primary-detail layout is an interface that shows a list of items and the corresponding details of the selected item.
 ---
 ## Related standards
-- Code execution results
+- [Alert messages](../../error-handling/alert-messages/alert-messages.md)
+- [Long running operations](../../generation-output/long-running-operations/long-running-operations.md)
+- [Chain of thought (deep think)](../../trust-builders/chain-of-thought/chain-of-thought.md)
+- [Log summary & synthesis](../../generation-output/log-summary-and-synthesis/log-summary-synthesis.md)
 ---
 ## Notes for PatternFly
 The following explainability/audit trails needs are not fully covered by existing PatternFly components and may require net-new design work:
@@ -67,7 +70,6 @@ The following explainability/audit trails needs are not fully covered by existin
 - **Factor importance with magnitude:** Ranked list of contributing factors with relative weight or contribution percentage. Description List approximates the structure but lacks visual weight indicators.
 - **Counterfactual / "what-if" framing:** Showing how a decision would change under different conditions. No component natively communicates the hypothetical nature of alternative scenarios.
 - **Inline source highlighting:** Annotating specific text spans within a content block to show which words or passages contributed to a conclusion. Requires interaction design for click-to-trace behavior.
-- **Provenance chain node types:** While Compass + React Flow provides the canvas, purpose-built node types for data lineage steps (source, transformation, model inference, output) do not yet exist.
 ---
 ## Assumptions and research questions
 <a id="assumptions"></a>

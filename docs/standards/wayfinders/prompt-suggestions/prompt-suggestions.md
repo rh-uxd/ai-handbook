@@ -4,7 +4,7 @@ description: "Pre-written example prompts at an AI entry point that solve the bl
 category: "Conversation"
 status: "Recommended"
 date: 2026-08-06
-last_updated: 2026-09-18
+last_updated: 2026-09-25
 contributors:
   - "Anh Nguyen"
   - "Lisa Lyman"
@@ -66,6 +66,11 @@ OpenShift Lightspeed omni-bar showing Suggested prompts on a Pod details page
 - **[React Chatbot](https://www.patternfly.org/patternfly-ai/react-chatbot/overview):** Chat entry points that present suggested prompts in the zero state.
 ---
 ## Related standards
+- [Clarification prompts](../../conversation/clarification-prompts/clarification-prompts.md)
+- [Prompt templates](../../conversation/prompt-templates/prompt-templates.md)
+- [Structured prompts](../../input-authoring/structured-prompts/structured-prompts.md)
+- [Contextual AI Invocation](../../input-authoring/contextual-ai-invocation/contextual-ai-invocation.md)
+- [Human-in-the-Loop (HITL)](../../governors/human-in-the-loop/human-in-the-loop.md)
 ---
 ## Notes for PatternFly
 - **Context-scoped starter prompts are not a PatternFly pattern yet:** React Chatbot covers zero-state suggested prompts as a list of starters, but PatternFly does not document a recipe for scoping those starters to the current object, project, or environment — for example, “Ask AI about this cluster…” with cluster- or project-bound suggestions. Guidance for context-aware prompt suggestions would help product teams implement this standard consistently.
@@ -74,6 +79,6 @@ OpenShift Lightspeed omni-bar showing Suggested prompts on a Pod details page
 <a id="assumptions"></a>
 #### Assumptions
 Assumptions are indicated with <a href="#assumptions" class="assumption-marker" style="color:#ee0000;font-weight:700;text-decoration:none">*</a> throughout the standard.
-- **[When not to use](#when-not-to-use):** Capability set is too narrow to need teaching, Too many suggestions at once
+- **[When not to use](#when-not-to-use):** Too many suggestions at once
 #### Research questions
-- Research team to add assumptions or further research questions.
+No research questions at this time.

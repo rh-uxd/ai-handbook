@@ -4,7 +4,7 @@ description: "AI-powered tasks surfaced in place, scoped to the object or state 
 category: "Wayfinders"
 status: "Recommended"
 date: 2026-08-05
-last_updated: 2026-09-18
+last_updated: 2026-09-25
 contributors:
   - "Anh Nguyen"
   - "Lisa Lyman"
@@ -14,7 +14,7 @@ contributors:
 # Contextual AI actions
 
 ## Overview
-Contextual AI Actions are AI-powered tasks surfaced directly within the interface, scoped to what the user is currently working with — an object, field, view, or system state. Instead of routing the user to a separate chat (OpenShift Lightspeed) or blank prompt, the action appears in place and runs with a single interaction. The action already knows its target, so the user does not have to restate what they are doing.
+Contextual AI Actions are AI-powered tasks surfaced and scoped in place — on the object, field, view, or system state the user is already working with. The action already knows its target, so the user does not have to restate what they are doing or start from a blank prompt. The trigger is a single, named interaction in the current UI; the outcome may stay inline or open a drawer, panel, or assistant with that context already attached.
 
 ---
 ## Purpose and value
@@ -46,16 +46,22 @@ An inline “Learn more” control with the AI cue opens Lightspeed from the cur
 
 OpenShift Lightspeed inline Learn more control opening from Headless mode on a VirtualMachine
 
+(*Note: This example shows an in-place trigger with context carried into Lightspeed (drawer/assistant). A fully in-place result (AI output that stays on the page without opening chat) will be added when available from the upcoming prototype.*)
+
 ---
 ## Recommended components
 - **[Button](https://www.patternfly.org/components/button):** Primary control for a single, obvious scoped action in place (for example, “Summarize with AI” or “Edit with AI”). Use when one named action is the clear default on the current object.
-- **[Menu](https://www.patternfly.org/components/menus/menu) / [Menu toggle](https://www.patternfly.org/components/menus/menu-toggle):** Surfaces multiple contextual AI actions from an overflow or actions menu anchored to the current object or view. Use when two or more scoped actions share the same anchor or placement is secondary.
+- **[Menu](https://www.patternfly.org/components/menus/menu) / [Menu toggle](https://www.patternfly.org/components/menus/menu-toggle):** Surfaces multiple contextual AI actions from an overflow or actions menu anchored to the current object or view. Use when two or more scoped actions share the same anchor or placement is secondary — including density/overflow cases.
 - **[Link](https://www.patternfly.org/components/link):** Inline control for lightweight “learn more” or explain-then-act affordances at field level (for example, “Learn more with AI” beside a setting). Use when the action should feel secondary and stay in the flow of the page.
 - **[Label](https://www.patternfly.org/components/label):** Consistent AI visual cue paired with a concrete action name — additive, not a standalone trigger. Use with Button, Link, or menu items so users recognize AI-driven actions at a glance.
 - **[Popover](https://www.patternfly.org/components/popover):** Local help or explain-then-act scoped to the current view without leaving the page. Use to introduce context and host a link or button that launches the action.
 - **[Code editor](https://www.patternfly.org/components/code-editor):** In-editor completion and checks that run against the file or selection in context. Use when the working surface is already a code editor.
 ---
 ## Related standards
+- [Contextual AI Invocation](../../input-authoring/contextual-ai-invocation/contextual-ai-invocation.md)
+- [Human-in-the-Loop (HITL)](../../governors/human-in-the-loop/human-in-the-loop.md)
+- [Prompt suggestions](../prompt-suggestions/prompt-suggestions.md)
+- [Clarification prompts](../../conversation/clarification-prompts/clarification-prompts.md)
 ---
 ## Notes for PatternFly
 - **Contextual AI action affordance is not a PatternFly pattern yet:** Button, Menu, Label, Popover, and Code editor cover the primitives, but PatternFly does not document a shared recipe for in-product AI actions — concrete action naming (avoid “AI Assist”), consistent AI visual cue, and scoping to the current object or field. Guidance for that affordance would help products implement this Wayfinder consistently.
@@ -63,7 +69,6 @@ OpenShift Lightspeed inline Learn more control opening from Headless mode on a V
 ## Assumptions and research questions
 <a id="assumptions"></a>
 #### Assumptions
-Assumptions are indicated with <a href="#assumptions" class="assumption-marker" style="color:#ee0000;font-weight:700;text-decoration:none">*</a> throughout the standard.
-- **No assumptions were made**
+No assumptions were made.
 #### Research questions
-- Research team to add assumptions or further research questions.
+No research questions at this time.

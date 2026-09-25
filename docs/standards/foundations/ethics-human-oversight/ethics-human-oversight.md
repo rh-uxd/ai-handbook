@@ -4,7 +4,7 @@ description: "Keep humans in control of AI through approval gates, overrides, wi
 category: "Foundations"
 status: "Recommended"
 date: 2026-09-03
-last_updated: 2026-09-17
+last_updated: 2026-09-25
 contributors:
   - "Mary Shakshober-Crossman"
   - "Jason Brock"
@@ -58,8 +58,18 @@ The log is evidence; oversight is the appeal path attached to it. ([How to Give 
 
 ---
 ## Related standards
-- User override
-- Retry & recovery
+- [Human-in-the-loop (HITL)](../../governors/human-in-the-loop/human-in-the-loop.md)
+- [Action confirmation](../../governors/action-confirmation/action-confirmation.md)
+- [Plan approval](../../governors/plan-approval/plan-approval.md)
+- [Audit trails](../../governors/audit-trails/audit-trails.md)
+- [Contextual AI invocation](../../input-authoring/contextual-ai-invocation/contextual-ai-invocation.md)
+- [Alert messages](../../error-handling/alert-messages/alert-messages.md)
+- [Long-running operations](../../generation-output/long-running-operations/long-running-operations.md)
+- [User override](../../governors/user-override/user-override.md)
+- [Ethics: Transparency and information integrity](../ethics-transparency-and-information-integrity/ethics-transparency-and-information-integrity.md)
+- [Ethics: Harm reduction](../ethics-harm-reduction/ethics-hardm-reduction.md)
+- [Retry & recovery](../../error-handling/retry-recovery/retry-and-recovery.md)
+- [Ethics: Skill and expertise preservation](../ethics-skill-and-expertise-preservation/ethics-skill-expertise-preservation.md)
 ---
 ## Assumptions and research questions
 <a id="assumptions"></a>

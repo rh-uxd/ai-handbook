@@ -4,7 +4,7 @@ description: "Compress high-volume logs and related telemetry into a ranked, evi
 category: "Generation & Output"
 status: "Experimental"
 date: 2026-08-31
-last_updated: 2026-09-18
+last_updated: 2026-09-25
 contributors:
   - "Mary Shakshober-Crossman"
   - "Lisa Lyman"
@@ -64,8 +64,12 @@ Logs table with an AI synthesis column, expanded evidence snippet, and related, 
 - **[Alert](https://www.patternfly.org/components/alert):** Brief, important status messages. Use it when the synthesis is partial, low-confidence, or missing sources, not as a substitute for the diagnosis card.
 ---
 ## Related standards
+- [Alert messages](../../error-handling/alert-messages/alert-messages.md)
+- [Audit trails](../../governors/audit-trails/audit-trails.md)
+- [Long-running operations](../long-running-operations/long-running-operations.md)
+- [Chain of thought](../../trust-builders/chain-of-thought/chain-of-thought.md)
 - Code execution results
-- Source attribution
+- [Source attribution](../../trust-builders/source-attribution/source-attribution.md)
 ---
 ## Notes for PatternFly
 - **Diagnosis vs. snippet vs. viewer:** Log snippet pairs a message with a short excerpt. Log viewer is for raw tails. Neither documents a ranked, evidence-linked diagnosis (verdict, competing causes, citations into specific lines). That composition is the gap this standard needs.

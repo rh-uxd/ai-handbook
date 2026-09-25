@@ -4,7 +4,7 @@ description: "Communicate AI failures, stalled operations, completions, and othe
 category: "Error handling"
 status: "Experimental"
 date: 2026-07-27
-last_updated: 2026-09-17
+last_updated: 2026-09-25
 contributors:
   - "Mary Shakshober-Crossman"
   - "Lisa Lyman"
@@ -62,7 +62,10 @@ Our users often rely on third party tools outside of our technical consoles to g
 - **[Severity](https://www.patternfly.org/patterns/status-and-severity):** Providing users with clearly defined status and severity states is essential when sharing important context about their data streams and systems.
 ---
 ## Related standards
-- Code execution results
+- [Audit trails](../../governors/audit-trails/audit-trails.md)
+- [Long running operations](../../generation-output/long-running-operations/long-running-operations.md)
+- [Chain of thought (deep think)](../../trust-builders/chain-of-thought/chain-of-thought.md)
+- [Log summary & synthesis](../../generation-output/log-summary-and-synthesis/log-summary-synthesis.md)
 ---
 ## Assumptions and research questions
 <a id="assumptions"></a>
@@ -70,8 +73,8 @@ Our users often rely on third party tools outside of our technical consoles to g
 Assumptions are indicated with <a href="#assumptions" class="assumption-marker" style="color:#ee0000;font-weight:700;text-decoration:none">*</a> throughout the standard.
 - **[Example visualizations](#examples-and-visualizations):** OpenShift’s ‘Agentic run details’
 #### Research questions
-- This is more of a technical capability than a UX research question but it has direct UX implications: can AI realistically determine when it does not have enough reliable information to give a correct answer?
-- Does the AI alert messages make key operation state changes (unexpected stalling, timeouts, failures, and successes) obvious to the user?
+1. This is more of a technical capability than a UX research question but it has direct UX implications: can AI realistically determine when it does not have enough reliable information to give a correct answer?
+2. Does the AI alert messages make key operation state changes (unexpected stalling, timeouts, failures, and successes) obvious to the user?
 #### Metrics to track
 1. Error recovery rate: % of users who successfully complete their task after encountering an AI error, without escalating to support. Baseline from Ask Red Hat: 98.6% deflection rate.
 2. Time to recovery: Median seconds from error display to next user action. Shorter times indicate clear, actionable error messages.

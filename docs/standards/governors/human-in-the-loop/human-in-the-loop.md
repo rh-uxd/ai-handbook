@@ -4,7 +4,7 @@ description: "Keep a human in control of AI agent work — the agent investigate
 category: "Governors"
 status: "Recommended"
 date: 2026-08-05
-last_updated: 2026-09-18
+last_updated: 2026-09-25
 contributors:
   - "Anh Nguyen"
   - "Lisa Lyman"
@@ -82,6 +82,12 @@ On channels such as Slack or other shared surfaces, the review record should sho
 - **[Helper text](https://www.patternfly.org/components/helper-text):** Supporting copy that separates recorded facts from inferred claims during review.
 ---
 ## Related standards
+- [Contextual AI Actions](../../wayfinders/contextual-ai-actions/contextual-ai-actions.md)
+- [Contextual AI Invocation](../../input-authoring/contextual-ai-invocation/contextual-ai-invocation.md)
+- [Clarification prompts](../../conversation/clarification-prompts/clarification-prompts.md)
+- [Prompt templates](../../conversation/prompt-templates/prompt-templates.md)
+- [Ethics: Transparency and information integrity](../../foundations/ethics-transparency-and-information-integrity/ethics-transparency-and-information-integrity.md)
+- [Ethics: Human oversight](../../foundations/ethics-human-oversight/ethics-human-oversight.md)
 ---
 ## Notes for PatternFly
 - **HITL authorization workflow is not a PatternFly pattern yet:** Recommended components cover approve/reject controls and review surfaces (Button, Modal, Alert, Helper text), but PatternFly does not document a standard recipe for the full HITL loop — plan/findings review with evidence, modify/override, explicit authorization, and an interruptible kill switch mid-run. A PatternFly guidance or demo for agent authorization would help product teams implement this standard consistently.
@@ -90,8 +96,8 @@ On channels such as Slack or other shared surfaces, the review record should sho
 <a id="assumptions"></a>
 #### Assumptions
 Assumptions are indicated with <a href="#assumptions" class="assumption-marker" style="color:#ee0000;font-weight:700;text-decoration:none">*</a> throughout the standard.
-- **[When to use](#when-to-use):** Third-party exposure, External-facing output, Review is always available, A qualified reviewer can respond
-- **[When not to use](#when-not-to-use):** Low-risk plan work, Time-critical safe actions
-- **[Examples and visualizations](#examples-and-visualizations):** Modify / override
+- **[When to use](#when-to-use):** Third-party exposure, external-facing output, review is always available, and a qualified reviewer can respond
+- **[When not to use](#when-not-to-use):** Low-risk plan work and time-critical safe actions
+- **[Example visualizations](#examples-and-visualizations):** Modify / override
 #### Research questions
-- Research team to add assumptions or further research questions.
+No research questions at this time.
