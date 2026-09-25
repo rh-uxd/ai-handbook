@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "generated": "2026-09-25T16:04:34.000Z",
+  "generated": "2026-09-25T16:17:00.000Z",
   "meta": {
     "totalEntries": 33,
     "totalDocs": 33,
@@ -82,10 +82,10 @@
     "Retryandrecovery": [
       {
         "displayName": "Retry and recovery",
-        "description": "Notify users when AI work will take five or more minutes, keep the task running in the background, and deliver clear completion (or failure) signals so they can leave and return with confidence",
+        "description": "Recover from AI failures through intelligent retry, guided corrections, and alternative pathways so a failure becomes a next step, not a dead end",
         "pathSlug": "standards-error-handling-retry-recovery-retry-and-recovery",
         "section": "ai-design-standards",
-        "category": "generation-output",
+        "category": "error-handling",
         "source": "rh-uxd-ai-handbook",
         "path": "https://raw.githubusercontent.com/rh-uxd/ai-handbook/main/docs/standards/error-handling/retry-recovery/retry-and-recovery.md",
         "version": "v1"
