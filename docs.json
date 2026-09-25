@@ -1,9 +1,9 @@
 {
   "version": "1",
-  "generated": "2026-09-25T15:32:23.000Z",
+  "generated": "2026-09-25T15:32:55.000Z",
   "meta": {
-    "totalEntries": 31,
-    "totalDocs": 31,
+    "totalEntries": 32,
+    "totalDocs": 32,
     "source": "rh-uxd-ai-handbook"
   },
   "docs": {
@@ -328,6 +328,18 @@
         "category": "trust-builders",
         "source": "rh-uxd-ai-handbook",
         "path": "https://raw.githubusercontent.com/rh-uxd/ai-handbook/main/docs/standards/trust-builders/index.md",
+        "version": "v1"
+      }
+    ],
+    "SourceAttribution": [
+      {
+        "displayName": "Source Attribution",
+        "description": "Show which data sources, documents, or knowledge bases informed AI outputs, enabling users to verify claims",
+        "pathSlug": "standards-trust-builders-source-attribution-source-attribution",
+        "section": "ai-design-standards",
+        "category": "trust-builders",
+        "source": "rh-uxd-ai-handbook",
+        "path": "https://raw.githubusercontent.com/rh-uxd/ai-handbook/main/docs/standards/trust-builders/source-attribution/source-attribution.md",
         "version": "v1"
       }
     ],
