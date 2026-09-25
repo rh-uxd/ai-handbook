@@ -1,9 +1,9 @@
 {
   "version": "1",
-  "generated": "2026-09-22T19:22:04.000Z",
+  "generated": "2026-09-25T15:32:23.000Z",
   "meta": {
-    "totalEntries": 30,
-    "totalDocs": 30,
+    "totalEntries": 31,
+    "totalDocs": 31,
     "source": "rh-uxd-ai-handbook"
   },
   "docs": {
@@ -172,6 +172,18 @@
         "category": "generation-output",
         "source": "rh-uxd-ai-handbook",
         "path": "https://raw.githubusercontent.com/rh-uxd/ai-handbook/main/docs/standards/generation-output/log-summary-and-synthesis/log-summary-synthesis.md",
+        "version": "v1"
+      }
+    ],
+    "LongRunningOperations": [
+      {
+        "displayName": "Long-Running Operations",
+        "description": "Notify users when AI work will take five or more minutes, keep the task running in the background, and deliver clear completion (or failure) signals so they can leave and return with confidence",
+        "pathSlug": "standards-generation-output-long-running-operations-long-running-operations",
+        "section": "ai-design-standards",
+        "category": "generation-output",
+        "source": "rh-uxd-ai-handbook",
+        "path": "https://raw.githubusercontent.com/rh-uxd/ai-handbook/main/docs/standards/generation-output/long-running-operations/long-running-operations.md",
         "version": "v1"
       }
     ],
