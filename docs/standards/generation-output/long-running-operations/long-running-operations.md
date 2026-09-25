@@ -87,17 +87,25 @@ Chatbot active wait with a time expectation, expandable deep thinking steps, and
 
 Show an inline AI-labeled progress card with Deep Thinking-style steps when a non-chat action is still in view but past a bare spinner. Offer Cancel and, as duration approaches about 30 seconds, a Run in background action.
 
+Cluster health analysis card with Deep Thinking steps, Cancel operation, and Run in background
+
 #### Dashboard walk-away (non-chatbot)
 
 On a full-page dashboard, trigger AI analysis from a primary action, then offer Run in background so the SRE can return to triage. Mark the job with an AI badge. <a href="#assumptions" class="assumption-marker" style="color:#ee0000;font-weight:700;text-decoration:none">*</a>
+
+Observability dashboard with an AI analysis background banner and Run in background on the AI actions card
 
 #### Drawer-triggered background job
 
 From a details drawer, start AI work and keep a compact inline banner for status while the drawer can close. Completion lands in a toast and notification drawer with a deep link.
 
+Cluster details drawer showing a background analysis started banner, with the drawer free to close
+
 #### Completion toast with deep link
 
 Benefit-first sentence case microcopy. Example: "System log analysis complete. Select to view the architecture report." The toast and notification item share a URL parameter that opens the output view with filter and state pre-loaded.
+
+Completion toast and notification drawer item for system log analysis, each with a deep link to the report
 
 ---
 
