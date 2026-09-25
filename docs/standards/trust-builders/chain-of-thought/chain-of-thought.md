@@ -1,5 +1,5 @@
 ---
-title: "Long-Running Operations"
+title: "Chain of thought"
 description: "Notify users when AI work will take five or more minutes, keep the task running in the background, and deliver clear completion (or failure) signals so they can leave and return with confidence"
 category: "Generation & Output"
 status: "Experimental"

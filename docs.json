@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "generated": "2026-09-25T21:40:37.000Z",
+  "generated": "2026-09-25T21:42:06.000Z",
   "meta": {
-    "totalEntries": 37,
+    "totalEntries": 38,
     "totalDocs": 38,
     "source": "rh-uxd-ai-handbook"
   },
@@ -226,16 +226,6 @@
     "LongRunningOperations": [
       {
         "displayName": "Long-Running Operations",
-        "description": "Notify users when AI work will take five or more minutes, keep the task running in the background, and deliver clear completion (or failure) signals so they can leave and return with confidence",
-        "pathSlug": "standards-trust-builders-chain-of-thought-chain-of-thought",
-        "section": "ai-design-standards",
-        "category": "generation-output",
-        "source": "rh-uxd-ai-handbook",
-        "path": "https://raw.githubusercontent.com/rh-uxd/ai-handbook/main/docs/standards/trust-builders/chain-of-thought/chain-of-thought.md",
-        "version": "v1"
-      },
-      {
-        "displayName": "Long-Running Operations",
         "description": "Guide users through AI work that takes longer than a brief interaction, with progressive wait tiers, honest expectations, and a clear signal when work finishes or fails",
         "pathSlug": "standards-generation-output-long-running-operations-long-running-operations",
         "section": "ai-design-standards",
@@ -386,6 +376,18 @@
         "category": "input-authoring",
         "source": "rh-uxd-ai-handbook",
         "path": "https://raw.githubusercontent.com/rh-uxd/ai-handbook/main/docs/standards/input-authoring/structured-prompts/structured-prompts.md",
+        "version": "v1"
+      }
+    ],
+    "Chainofthought": [
+      {
+        "displayName": "Chain of thought",
+        "description": "Notify users when AI work will take five or more minutes, keep the task running in the background, and deliver clear completion (or failure) signals so they can leave and return with confidence",
+        "pathSlug": "standards-trust-builders-chain-of-thought-chain-of-thought",
+        "section": "ai-design-standards",
+        "category": "generation-output",
+        "source": "rh-uxd-ai-handbook",
+        "path": "https://raw.githubusercontent.com/rh-uxd/ai-handbook/main/docs/standards/trust-builders/chain-of-thought/chain-of-thought.md",
         "version": "v1"
       }
     ],

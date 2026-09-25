@@ -6,8 +6,10 @@ status: "Experimental"
 date: 2026-09-25
 last_updated: 2026-09-25
 contributors:
+  - "Kayla Chumley"
   - "Liz Clayton"
   - "Mary Shakshober-Crossman"
+  - "Jingfu Tan"
   - "Applied AI UX"
 ---
 
