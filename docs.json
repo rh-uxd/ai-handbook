@@ -1,9 +1,9 @@
 {
   "version": "1",
-  "generated": "2026-09-25T15:55:01.000Z",
+  "generated": "2026-09-25T15:57:56.000Z",
   "meta": {
-    "totalEntries": 32,
-    "totalDocs": 32,
+    "totalEntries": 33,
+    "totalDocs": 33,
     "source": "rh-uxd-ai-handbook"
   },
   "docs": {
@@ -76,6 +76,18 @@
         "category": "error-handling",
         "source": "rh-uxd-ai-handbook",
         "path": "https://raw.githubusercontent.com/rh-uxd/ai-handbook/main/docs/standards/error-handling/index.md",
+        "version": "v1"
+      }
+    ],
+    "Retryandrecovery": [
+      {
+        "displayName": "Retry and recovery",
+        "description": "Notify users when AI work will take five or more minutes, keep the task running in the background, and deliver clear completion (or failure) signals so they can leave and return with confidence",
+        "pathSlug": "standards-error-handling-retry-recovery-retry-and-recovery",
+        "section": "ai-design-standards",
+        "category": "generation-output",
+        "source": "rh-uxd-ai-handbook",
+        "path": "https://raw.githubusercontent.com/rh-uxd/ai-handbook/main/docs/standards/error-handling/retry-recovery/retry-and-recovery.md",
         "version": "v1"
       }
     ],
