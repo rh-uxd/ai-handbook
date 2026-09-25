@@ -55,7 +55,11 @@ Source attribution makes the origins of AI-generated content visible by citing t
 
 #### Chat bot source attribution example
 
+Chatbot answer citing three sources, with a source card for Understanding CrashLoopBackOff in OpenShift
+
 #### Contextual source attribution example
+
+Deployment page AI insight with a Source 1 popover for the CrashLoopBackOff knowledge-base article
 
 #### Ask Red Hat knowledge-base citations
 
@@ -73,13 +77,19 @@ Red Hat Developer Hub research recommends RAG that answers only from internal so
 
 Chat keeps the source card, but the title is redacted. A Restricted label and an inline info alert explain that the title, excerpt, and link are withheld.
 
+Chatbot source card labeled Restricted, with the title, excerpt, and link withheld
+
 #### Permissioned view
 
 Same GUI insight as the disclosed popover. Opening Source 1 shows a popover with PatternFly empty state (lock icon) and a Request access button instead of the article.
 
+Deployment page AI insight whose Source 1 popover says permission is required and offers Request access
+
 #### Audit trail for authorized reviewers
 
 A reviewer-only Source access audit page. Conversation metadata sits in a description list; a compact table logs source IDs and events without exposing titles or excerpts in the product UI.
+
+Source access audit page with conversation metadata and a table of restricted source events
 
 ---
 
