@@ -1,9 +1,9 @@
 {
   "version": "1",
-  "generated": "2026-09-25T16:17:00.000Z",
+  "generated": "2026-09-25T16:34:12.000Z",
   "meta": {
-    "totalEntries": 33,
-    "totalDocs": 33,
+    "totalEntries": 34,
+    "totalDocs": 34,
     "source": "rh-uxd-ai-handbook"
   },
   "docs": {
@@ -256,6 +256,18 @@
         "category": "governors",
         "source": "rh-uxd-ai-handbook",
         "path": "https://raw.githubusercontent.com/rh-uxd/ai-handbook/main/docs/standards/governors/plan-approval/plan-approval.md",
+        "version": "v1"
+      }
+    ],
+    "Useroverride": [
+      {
+        "displayName": "User override",
+        "description": "Modify, reject, or manually control AI recommendations before they are applied, keeping human agency over consequential output",
+        "pathSlug": "standards-governors-user-override-user-override",
+        "section": "ai-design-standards",
+        "category": "governors",
+        "source": "rh-uxd-ai-handbook",
+        "path": "https://raw.githubusercontent.com/rh-uxd/ai-handbook/main/docs/standards/governors/user-override/user-override.md",
         "version": "v1"
       }
     ],
