@@ -43,7 +43,7 @@ Long-running operations guide users through AI work that takes five or more minu
 
 Uses [**PatternFly Chatbot — deep thinking wait state**](https://www.patternfly.org/extensions/chatbot/messages#messages-with-deep-thinking) as a baseline. Additionally, chat assistant sets a 5+ minute expectation, invites the user to leave and keep working, shows expandable deep-thinking progress with completed and in-progress steps, and offers Cancel operation.
 
-![PatternFly Chatbot long-running wait state with deep thinking progress and cancel](./assets/pf-ai-wait-state-mockup.png)
+PatternFly Chatbot long-running wait state with deep thinking progress and cancel
 
 ---
 
