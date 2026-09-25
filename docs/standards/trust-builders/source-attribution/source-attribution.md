@@ -1,5 +1,5 @@
 ---
-title: "Source Attribution"
+title: "Source attribution"
 description: "Show which data sources, documents, or knowledge bases informed AI outputs, enabling users to verify claims"
 category: "Trust Builders"
 status: "Recommended"
@@ -11,7 +11,7 @@ contributors:
   - "Applied AI UX"
 ---
 
-# Source Attribution
+# Source attribution
 
 ## Overview
 

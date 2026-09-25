@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "generated": "2026-09-25T21:11:44.000Z",
+  "generated": "2026-09-25T21:18:44.000Z",
   "meta": {
     "totalEntries": 37,
     "totalDocs": 38,
@@ -401,9 +401,9 @@
         "version": "v1"
       }
     ],
-    "SourceAttribution": [
+    "Sourceattribution": [
       {
-        "displayName": "Source Attribution",
+        "displayName": "Source attribution",
         "description": "Show which data sources, documents, or knowledge bases informed AI outputs, enabling users to verify claims",
         "pathSlug": "standards-trust-builders-source-attribution-source-attribution",
         "section": "ai-design-standards",
