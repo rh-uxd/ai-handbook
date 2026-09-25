@@ -68,7 +68,6 @@ Logs table with an AI synthesis column, expanded evidence snippet, and related, 
 - [Audit trails](../../governors/audit-trails/audit-trails.md)
 - [Long-running operations](../long-running-operations/long-running-operations.md)
 - [Chain of thought](../../trust-builders/chain-of-thought/chain-of-thought.md)
-- Code execution results
 - [Source attribution](../../trust-builders/source-attribution/source-attribution.md)
 ---
 ## Notes for PatternFly
