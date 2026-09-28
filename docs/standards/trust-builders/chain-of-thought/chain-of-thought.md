@@ -6,7 +6,9 @@ status: "Experimental"
 date: 2026-08-04
 last_updated: 2026-08-06
 contributors:
-  - "Lisa Lyman"
+  - "Jason Brock"
+  - "Daragh McGrath"
+  - "Jingfu Tan"
   - "Applied AI UX"
 ---
 
