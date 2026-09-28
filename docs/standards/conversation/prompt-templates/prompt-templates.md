@@ -7,7 +7,6 @@ date: 2026-08-06
 last_updated: 2026-09-25
 contributors:
   - "Anh Nguyen"
-  - "Lisa Lyman"
   - "Jingfu Tan"
   - "Tina Tien"
   - "Applied AI UX"
