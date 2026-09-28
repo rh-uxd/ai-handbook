@@ -7,7 +7,7 @@ date: 2026-07-27
 last_updated: 2026-09-25
 contributors:
   - "Mary Shakshober-Crossman"
-  - "Lisa Lyman"
+  - "Tina Tien"
   - "Jingfu Tan"
   - "Applied AI UX"
 ---
