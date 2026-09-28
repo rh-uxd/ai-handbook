@@ -7,7 +7,8 @@ date: 2026-09-10
 last_updated: 2026-09-25
 contributors:
   - "Mary Shakshober-Crossman"
-  - "Jason Brock"
+  - "Jingfu Tan"
+  - "Foday Kargbo"
   - "Applied AI UX"
 ---
 
