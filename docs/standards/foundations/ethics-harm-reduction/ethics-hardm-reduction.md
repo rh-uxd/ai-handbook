@@ -6,8 +6,9 @@ status: "Recommended"
 date: 2026-09-25
 last_updated: 2026-09-25
 contributors:
-  - "Mary Shakshober-Crossman"
   - "Jason Brock"
+  - "Liz Clayton"
+  - "Jingfu Tan"
   - "Applied AI UX"
 ---
 
