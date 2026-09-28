@@ -7,6 +7,8 @@ date: 2026-08-04
 last_updated: 2026-09-25
 contributors:
   - "Lisa Lyman"
+  - "Foday Kargbo"
+  - "Jingfu Tan"
   - "Applied AI UX"
 ---
 
