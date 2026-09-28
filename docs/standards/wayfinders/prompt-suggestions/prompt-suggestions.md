@@ -9,6 +9,8 @@ contributors:
   - "Anh Nguyen"
   - "Lisa Lyman"
   - "Mark Riggan"
+  - "Tina Tien"
+  - "Jingfu Tan"
   - "Applied AI UX"
 ---
 
