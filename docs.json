@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "generated": "2026-09-28T21:18:00.000Z",
+  "generated": "2026-09-28T21:20:15.000Z",
   "meta": {
     "totalEntries": 38,
     "totalDocs": 38,
@@ -382,10 +382,10 @@
     "Chainofthought": [
       {
         "displayName": "Chain of thought",
-        "description": "Notify users when AI work will take five or more minutes, keep the task running in the background, and deliver clear completion (or failure) signals so they can leave and return with confidence",
+        "description": "Reveal an AI's step-by-step reasoning in real time so users can observe, verify, and build trust in the system's logic",
         "pathSlug": "standards-trust-builders-chain-of-thought-chain-of-thought",
         "section": "ai-design-standards",
-        "category": "generation-output",
+        "category": "trust-builders",
         "source": "rh-uxd-ai-handbook",
         "path": "https://raw.githubusercontent.com/rh-uxd/ai-handbook/main/docs/standards/trust-builders/chain-of-thought/chain-of-thought.md",
         "version": "v1"
