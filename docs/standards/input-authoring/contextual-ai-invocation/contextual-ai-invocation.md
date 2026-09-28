@@ -76,10 +76,10 @@ Hybrid Cloud Console dashboard showing a setup suggestion in the prompt and the 
 - **[Hint](https://www.patternfly.org/components/hint):** Lightweight, dismissible cue that the AI can be invoked for the current situation without forcing a context switch.
 ---
 ## Related standards
-- [Contextual AI Actions](docs/standards/wayfinders/contextual-ai-actions/contextual-ai-actions.md)
-- [Human-in-the-Loop (HITL)](docs/standards/governors/human-in-the-loop/human-in-the-loop.md)
-- [Prompt suggestions](docs/standards/wayfinders/prompt-suggestions/prompt-suggestions.md)
-- [Clarification prompts](docs/standards/conversation/clarification-prompts/clarification-prompts.md)
+- [Contextual AI Actions](../../wayfinders/contextual-ai-actions/contextual-ai-actions.md)
+- [Human-in-the-Loop (HITL)](../../governors/human-in-the-loop/human-in-the-loop.md)
+- [Prompt suggestions](../../wayfinders/prompt-suggestions/prompt-suggestions.md)
+- [Clarification prompts](../../conversation/clarification-prompts/clarification-prompts.md)
 ---
 ## Notes for PatternFly
 - **Context handoff is not a PatternFly pattern yet:** Recommended components cover invocation triggers (Button, Menu, Search input, Input group, Hint), but PatternFly does not document a standard recipe for attaching page, object, or selection context at invoke time — for example, context chips, a prefilled prompt, or a clear “context carried” disclosure. A PatternFly guidance or demo for context-aware invocation would help product teams implement this standard consistently.
