@@ -9,7 +9,6 @@ contributors:
   - "Mary Shakshober-Crossman"
   - "Tina Tien"
   - "Jingfu Tan"
-  - "Lisa Lyman"
   - "Applied AI UX"
 ---
 
