@@ -6,7 +6,9 @@ status: "Experimental"
 date: 2026-09-25
 last_updated: 2026-09-25
 contributors:
-  - "Mary Shakshober-Crossman"
+  - "Anh Nguyen"
+  - "Daragh McGrath"
+  - "Jingfu Tan"
   - "Applied AI UX"
 ---
 
