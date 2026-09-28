@@ -9,6 +9,7 @@ contributors:
   - "Mary Shakshober-Crossman"
   - "Lisa Lyman"
   - "Jingfu Tan"
+  - "Daragh McGrath"
   - "Applied AI UX"
 ---
 
