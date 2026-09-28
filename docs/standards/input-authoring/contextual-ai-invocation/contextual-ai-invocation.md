@@ -4,7 +4,7 @@ description: "How a product opens an AI conversation or capability from the plac
 category: "Input & Authoring"
 status: "Recommended"
 date: 2026-08-05
-last_updated: 2026-09-18
+last_updated: 2026-09-28
 contributors:
   - "Anh Nguyen"
   - "Lisa Lyman"
@@ -62,7 +62,7 @@ Red Hat Developer Hub Intelligent Assistant carrying the Development search cont
 #### Intent without prompt craft
 An AI prompt helps users get properly set up with the Hybrid Cloud Console, carrying setup context into the call instead of starting from a blank prompt. Selecting a setup-related suggestion opens the related HCC setup tasks panel.
 
-Hybrid Cloud Console dashboard where a setup suggestion invokes the HCC setup tasks panel
+Hybrid Cloud Console dashboard showing a setup suggestion in the prompt and the HCC setup tasks panel that opens when it is selected
 
 *[Github](https://github.com/KendraMar/HCCconcierge) (Experience 3 - follow the pink arrows for expected userflow)*
 
@@ -83,8 +83,8 @@ Hybrid Cloud Console dashboard where a setup suggestion invokes the HCC setup ta
 <a id="assumptions"></a>
 #### Assumptions
 Assumptions are indicated with <a href="#assumptions" class="assumption-marker" style="color:#ee0000;font-weight:700;text-decoration:none">*</a> throughout the standard.
-- **[Purpose and value](#purpose-and-value):** Consistent entry points, Separation of trigger from task
-- **[When to use](#when-to-use):** Capturable context, Consistent trigger pattern, Reliable condition for implicit call
+- **[Purpose and value](#purpose-and-value):** Consistent entry points and separation of trigger from task
+- **[When to use](#when-to-use):** Capturable context, consistent trigger pattern, and reliable condition for implicit call
 - **[When not to use](#when-not-to-use):** Context can't be captured or passed reliably
 #### Research questions
-- Research team to add assumptions or further research questions.
+No research questions at this time.
