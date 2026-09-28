@@ -8,6 +8,7 @@ last_updated: 2026-09-25
 contributors:
   - "Mary Shakshober-Crossman"
   - "Jingfu Tan"
+  - "Foday Kargbo"
   - "Applied AI UX"
 ---
 
