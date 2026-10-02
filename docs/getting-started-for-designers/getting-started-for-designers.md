@@ -33,7 +33,7 @@ ADD NEW MCP SNIPPETS HERE!!!
 4. Hit ‘Save' on that json file or enable autosave.
 5. Once you see the PatternFly MCP added to your list of MCPs, you are all set.
 
-![](blob:https://media.staging.atl-paas.net/?type=file&localId=74994315feb2&id=256bc935-3554-4e5a-9fae-9e7f9ffd2798&&collection=&height=546&occurrenceKey=null&width=1946&__contextId=null&__displayType=null&__external=false&__fileMimeType=null&__fileName=null&__fileSize=null&__mediaTraceId=null&url=null)
+PatternFly MCP enabled in Cursor MCP server list
 
 Note: If it is not showing up as enabled/is showing up as an error, ask the Cursor chat to troubleshoot it for you.
 
