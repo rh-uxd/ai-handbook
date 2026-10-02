@@ -1,12 +1,24 @@
 {
   "version": "1",
-  "generated": "2026-10-01T19:51:53.000Z",
+  "generated": "2026-10-02T13:51:21.000Z",
   "meta": {
-    "totalEntries": 38,
-    "totalDocs": 38,
+    "totalEntries": 39,
+    "totalDocs": 39,
     "source": "rh-uxd-ai-handbook"
   },
   "docs": {
+    "Gettingstartedfordesigners": [
+      {
+        "displayName": "Getting started for designers",
+        "description": "Set up the PatternFly MCP in Cursor and invoke AIX Standards guidance in your design sessions",
+        "pathSlug": "getting-started-for-designers-getting-started-for-designers",
+        "section": "ai-design-handbook",
+        "category": "general",
+        "source": "rh-uxd-ai-handbook",
+        "path": "https://raw.githubusercontent.com/rh-uxd/ai-handbook/main/docs/getting-started-for-designers/getting-started-for-designers.md",
+        "version": "v1"
+      }
+    ],
     "Accessibility": [
       {
         "displayName": "Accessibility",
