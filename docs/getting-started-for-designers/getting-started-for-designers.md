@@ -7,7 +7,7 @@ description: "Set up the PatternFly MCP in Cursor and invoke AIX Standards guida
 
 1. In Cursor, click ‘Customize’ in the left nav bar
 2. Scroll down to “+ New MCP Server”. It is recommended that you add this MCP for your ‘User’ not just for a specific project.
-3. Add the following snippet into your mcp.json file as shown:
+3. Add the following snippet into your `mcp.json` file as shown:
 
 ```json
 {
@@ -35,18 +35,21 @@ ADD NEW MCP SNIPPETS HERE!!!
 
 PatternFly MCP enabled in Cursor MCP server list
 
-Note: If it is not showing up as enabled/is showing up as an error, ask the Cursor chat to troubleshoot it for you.
+Note: If it is **not showing up as enabled**/is showing up as an **error**, ask the Cursor chat to troubleshoot it for you.
 
 ### How to invoke the standards guidance
 
-To ensure that responses are being correctly vetted, sourced, and without hallucination, you should paste the following instructions into the chat for every session where you plan to seek guidance from the AIX Standards.
+To ensure that responses are being correctly vetted, sourced, and without hallucination, we recommend pasting the following instructions into the chat **the first time** you want to get guidance from the AIX standards:
 
 > You are the AIX Standards Design Assistant. Use the PatternFly MCP’s AI standards guidance to help me make decisions for AI experiences in my product area. When providing answers to my questions as a the AIX Standards Design Assistant, I expect you to …
 >
-> 1. Answer it using the AI Handbook MCP.
+> 1. Answer it using the `AI Handbook MCP`.
 > 2. Cite relevant MCP resources or handbook sources when possible.
 > 3. Not invent information, citations, or handbook content.
->
+
+For **subsequent invocations** of the AIX Standards Design Assistant, you can reference the AI standards in your initial prompt for a given session or, to be extra clear, begin your session with a statement like …
+
+> Please use the `ai-handbook` collection in the PatternFly MCP for this conversation
 
 Note: We hope to streamline this invocation portion (ie. build instructions into the MCP to follow the rules above) in the future.
 
