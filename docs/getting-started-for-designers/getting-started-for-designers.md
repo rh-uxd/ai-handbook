@@ -3,39 +3,13 @@ title: "Getting started for designers"
 description: "Set up the PatternFly MCP in Cursor and invoke AIX Standards guidance in your design sessions"
 ---
 
-### How to add the MCP to Cursor
+### Prerequisites
 
-1. In Cursor, click ‘Customize’ in the left nav bar
-2. Scroll down to “+ New MCP Server”. It is recommended that you add this MCP for your ‘User’ not just for a specific project.
-3. Add the following snippet into your `mcp.json` file as shown:
-
-```json
-{
-"mcpServers": 
-{
-ADD NEW MCP SNIPPETS HERE!!!
-}
-}
-```
-
-```json
-"patternfly-mcp": {
-  "type": "stdio",
-  "command": "npx",
-  "args": [
-    "-y",
-    "@patternfly/patternfly-mcp@latest"
-  ],
-  "description": "Latest PatternFly MCP with AI Handbook collection"
-}
-```
-
-4. Hit ‘Save' on that json file or enable autosave.
-5. Once you see the PatternFly MCP added to your list of MCPs, you are all set.
+1. Have an AI tool set up that can support MCPs set up on your system (ie. Cursor, Claude, Codex, etc.)
+2. Make sure you have the PatternFly MCP enabled. [Click here for those intstructions.](https://github.com/patternfly/patternfly-mcp#set-a-basic-mcp-configuration)
 
 PatternFly MCP enabled in Cursor MCP server list
 
-Note: If it is **not showing up as enabled**/is showing up as an **error**, ask the Cursor chat to troubleshoot it for you.
 
 ### How to invoke the standards guidance
 
